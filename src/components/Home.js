@@ -1,12 +1,6 @@
 import Footer from "../components/Footer";
 
 const Home = () => {
-
-    const darkMode = () => {
-        document.body.classList.toggle("dark-mode");
-    }
-
-
     return (
         <>
             <div className="aboutme">
@@ -14,9 +8,7 @@ const Home = () => {
                 <p>I am a third-year student at Marmara University Computer Science and Engineering Department. I am always
                     eager to expand my expertise in software engineering as I have been developing software for 2 years and
                     keep
-                    learning about computer science in my university classes. I have contributed to open-source and have
-                    several
-                    projects of my own.
+                    learning about computer science in my university classes. I have contributed to open-source and love to collaborate with others. My key point is efficiency.
                 </p>
                 <hr />
                 <h4>
@@ -24,9 +16,9 @@ const Home = () => {
                 </h4>
                 <ul>
                     <li>Software Engineering</li>
-                    <p style={{ width: "85%" }}>I am proficient about software development cycles and knowledgeable in famous practices that we apply to software. I write clean, modular and efficient software.</p>
-                    <li>Blockchain Programming</li>
-                    <p style={{ width: "85%" }}>Blockchain is the technology of the future. It is a brilliant idea that people came up with and has enormous amounts of usage areas. I developed basic applications of blockchain and several transaction systems. I love how much we can accomplish with this technology!</p>
+                    <p style={{ width: "85%" }}>I am proficient about software development cycles and knowledgeable about famous practices that we apply to software. I write clean, modular and efficient software.</p>
+                    <li>Blockchain Technology</li>
+                    <p style={{ width: "85%" }}>Blockchain is the technology of the future. It is a brilliant idea that people came up with and has enormous amounts of usage areas. I developed basic applications of blockchain and several transaction systems. I can't wait to see how much we can accomplish with this technology!</p>
                     <li >Cryptography</li>
                     <p style={{ width: "85%" }}>I have been interested in Cryptography for a long time and some of my projects include digital signature methods and essentials such as,
                         SSL, SHA, AES, RSA. </p>
@@ -66,7 +58,5 @@ const Home = () => {
         </>
     )
 }
-// <p id="darkModeButton" onClick={darkMode}>Dark Mode</p>
-
 export default Home
 
