@@ -31,24 +31,28 @@ const Home = () => {
                 <ul>
                     <li>
                         <a href="https://github.com/berkkirtay/basicblockchain" target="_blank" rel="noopener noreferrer">A General Purpose Blockchain
-                            Implementation <i class="fas fa-external-link-alt"></i></a>
+                            Implementation</a>
                     </li>
 
                     <li>
                         <a href="https://github.com/berkkirtay/blockchain-web-api" target="_blank" rel="noopener noreferrer">A Web App for My Blockchain
-                            Implementation <i class="fas fa-external-link-alt"></i></a>
+                            Implementation</a>
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/PasswordManager" target="_blank" rel="noopener noreferrer">Password Manager Service <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay/PasswordManager" target="_blank" rel="noopener noreferrer">Password Manager Service</a>
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">Basic File Encryptor <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay/geneticalgorithms" target="_blank" rel="noopener noreferrer">Genetic Algorithms Applications</a>
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/geneticalgorithms" target="_blank" rel="noopener noreferrer">Genetic Algorithms Applications <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">Basic File Encryptor</a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/berkkirtay/enigmamachine" target="_blank" rel="noopener noreferrer">Enigma Machine Emulator</a>
                     </li>
 
                 </ul>

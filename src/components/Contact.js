@@ -22,7 +22,7 @@ const Contact = () => {
 
     return (
         <div className="contactForm">
-            <Link to="/personal/contact" style={{ textDecoration: "none", color: "white" }}>
+            <Link to="/contact" style={{ textDecoration: "none", color: "white" }}>
                 <h1 style={{ display: "inline" }}>Contact me</h1>
             </Link>
             <Link to="/" style={{ display: "inline", float: "right", marginTop: "1.8%", color: "white" }}><button className="button">Go back</button></Link>

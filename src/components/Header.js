@@ -11,7 +11,7 @@ const Header = () => {
                 rel="stylesheet"
                 href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css"
             />
-            <Link to="/personal" style={{ textDecoration: "none", color: "black" }} >
+            <Link to="/" style={{ textDecoration: "none", color: "black" }} >
                 <h1 style={{ display: "inline", color: "white" }} >Berk Kırtay</h1>
             </Link>
 

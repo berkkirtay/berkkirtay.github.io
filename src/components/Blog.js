@@ -18,7 +18,7 @@ const Blog = ({ blogs }) => {
                 <h3>{blog.title}</h3>
                 <p>{blog.text}</p>
                 <hr />
-                <p style={{ float: "right" }}>{blog.date}</p>
+                <p style={{ float: "right", margin: "0.5%" }}>{blog.date}</p>
             </div>
         </div>
     )
