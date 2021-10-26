@@ -1,4 +1,4 @@
-import { BrowserRouter, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 const Header = () => {
     /*
                 <Link style={{ display: "inline", float: "right", marginTop: "3%", color: "white" }} to="/personal/contact">Contact me</Link>

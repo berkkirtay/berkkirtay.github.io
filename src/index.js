@@ -19,16 +19,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var footer = document.getElementById("footer");
     if (footer)
-      footer.style.zoom = "2";
+      footer.style.zoom = "1.8";
 
     var contact = document.getElementsByClassName("contactForm")[0];
     if (contact)
-      contact.style.width = "95%";
+      contact.style.zoom = "1.8";
 
-    var blog = document.getElementsByClassName("projectLinksList")[0];
+    var blogs = document.getElementsByClassName("blogs")[0];
+    if (blogs)
+      blogs.style.zoom = "1.8";
+
+    var blog = document.getElementsByClassName("blog")[0];
     if (blog)
-      blog.style.width = "95%";
-
+      blog.style.zoom = "1.8";
   }
 }, false);
 

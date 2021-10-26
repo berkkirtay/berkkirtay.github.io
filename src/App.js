@@ -10,13 +10,13 @@ const App = () => {
   var blogs = [
     {
       "id": crypto.createHash("SHA1").update("Why I love cryptography" + "blabla").digest('base64').toLowerCase(),
-      "title": "Why I love cryptography",
+      "title": "Why I Love Cryptography",
       "text": "...",
       "date": new Date().toDateString()
     }
   ]
 
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('click', () => {
     if (navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("Android") > 0) {
       var parent = document.getElementById("parent");
       if (parent)
@@ -24,16 +24,19 @@ const App = () => {
 
       var footer = document.getElementById("footer");
       if (footer)
-        footer.style.zoom = "2";
+        footer.style.zoom = "1.8";
 
       var contact = document.getElementsByClassName("contactForm")[0];
       if (contact)
-        contact.style.width = "95%";
+        contact.style.zoom = "1.8";
 
-      var blog = document.getElementsByClassName("projectLinksList")[0];
+      var blogs = document.getElementsByClassName("blogs")[0];
+      if (blogs)
+        blogs.style.zoom = "1.8";
+
+      var blog = document.getElementsByClassName("blog")[0];
       if (blog)
-        blog.style.width = "95%";
-
+        blog.style.zoom = "1.8";
     }
   }, false);
 

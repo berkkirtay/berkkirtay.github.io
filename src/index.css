@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  /* background-color: rgb(216, 216, 179);   */
-  background-color: #1b1c20;
+  background-color: #101820ff; /*#1b1c20*/
   color:white;
 }
 
@@ -21,7 +21,7 @@ header {
 
  #parent {
   border: 1px solid rgb(173, 172, 172);
-  border-radius: 5px;
+  border-radius: 6px;
   box-sizing: border-box;
   width: 43%;
   padding: 1%;
@@ -34,16 +34,16 @@ header {
 }
 
 .aboutme li {
-  color:rgb(173, 17, 17);
+  color: rgb(20, 175, 100);
 }
 
 .projectLinksList li {
   margin: 1.5%;
-  color:rgb(173, 17, 17);
+  color:#006b38ff;
 }
 
 .projectLinksList a {
-  color:rgb(173, 17, 17);
+  color:rgb(16, 133, 76);
   text-decoration: none;
 }
 
@@ -90,10 +90,10 @@ header {
 }
 
 footer {
-  background-color: #40415e;
-    height: 2.5rem;
-    border-radius: 6px;
-    padding: 5px;
+  background-color: #303044;
+  height: 2.5rem;
+  border-radius: 6px;
+  padding: 5px;
 }
 
 footer a {
