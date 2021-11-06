@@ -6,13 +6,14 @@ import Blogs from "./components/Blogs";
 import Blog from "./components/Blog";
 import Header from "./components/Header";
 
+
 const App = () => {
   var blogs = [
     {
-      "id": crypto.createHash("SHA1").update("Why I love cryptography" + "blabla").digest('base64').toLowerCase(),
-      "title": "Why I Love Cryptography",
-      "text": "...",
-      "date": new Date().toDateString()
+      "id": crypto.createHash("SHA1").update("On Cryptography").digest('base64').toLowerCase(),
+      "title": "On Cryptography",
+      "text": "",
+      "date": "November 04, 2021"
     }
   ]
 

@@ -8,11 +8,11 @@ const Blogs = ({ blogs }) => {
                 <Link to="/blogs" style={{ textDecoration: "none", color: "white" }}>
                     <h1 style={{ display: "inline" }}>My Blog</h1>
                 </Link>
-                <Link to="/" style={{ display: "inline", float: "right", marginTop: "1.8%", color: "white" }}><button className="button" >Go back</button></Link>
+                <Link to="/" style={{ display: "inline", float: "right", marginTop: "1.4%", color: "white" }}><button className="button" >Go back</button></Link>
                 <hr />
                 <ul>
                     {blogs.map((blog) => (
-                        <li style={{ paddingBottom: "1.5%" }} key={blog.id}> <Link to={"/blogs/" + blog.id}>{blog.title}</Link></li>
+                        <li style={{ paddingTop: "2.5%" }} key={blog.id}> <Link to={"/blogs/" + blog.id}>{blog.title}</Link><span style={{ float: "right" }}>{blog.date}</span></li>
                     ))}
                 </ul>
             </div >

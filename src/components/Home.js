@@ -1,10 +1,6 @@
 import Footer from "../components/Footer";
 
 const Home = () => {
-    /*I am a third-year student at Marmara University Computer Science and Engineering Department. I am always
-                    eager to expand my expertise in software engineering as I have been developing software for 2 years and
-                    keep
-                    learning about computer science in my university classes. I have contributed to open-source and love to collaborate with others. My main focus is efficiency.*/
     return (
         <>
             <div className="aboutme">
@@ -57,7 +53,6 @@ const Home = () => {
                     <li>
                         <a href="https://github.com/berkkirtay/enigmamachine" target="_blank" rel="noopener noreferrer">Enigma Machine Emulator <i style={{ zoom: "0.9" }} class="fas fa-external-link-alt"></i></a>
                     </li>
-
                 </ul>
             </div>
             <hr />
