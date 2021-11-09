@@ -17,7 +17,7 @@ const Home = () => {
                     <li>Software Engineering</li>
                     <p style={{ width: "85%", paddingLeft: "1%" }}>I am proficient about software development cycles and knowledgeable about famous practices that we apply to software. I try to write clean, modular and efficient software.</p>
                     <li>Blockchain Technology</li>
-                    <p style={{ width: "85%", paddingLeft: "1%" }}>Blockchain is the technology of the future. It is a brilliant idea that people came up with and has enormous amounts of usage areas. I developed some basic applications of blockchain and several transaction systems. I can't wait to see how much we can accomplish with this technology!</p>
+                    <p style={{ width: "85%", paddingLeft: "1%" }}>Blockchain is the technology of the future. I developed some basic applications of blockchain and several transaction systems. I am excited to see how much we can achieve with this technology!</p>
                     <li >Cryptography</li>
                     <p style={{ width: "85%", paddingLeft: "1%" }}>I have been interested in Cryptography for a long time and some of my projects include digital signature methods and essentials such as,
                         SSL, SHA, AES, RSA. </p>
