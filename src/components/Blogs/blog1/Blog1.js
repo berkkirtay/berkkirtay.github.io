@@ -1,4 +1,6 @@
-import { useParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+import BlogFooter from "../BlogFooter"
 
 import cryptoimg from "./cryptography.jpg"
 import sha2img from "./sha2.png"
@@ -39,7 +41,7 @@ const Blog1 = ({ blog }) => {
                     I also think that this is not a threat to decentralized systems. We will not lose our decentralized systems as long as they keep up with the race. I can't say anything about our current blockchain systems. I really don't know what would happen to bitcoin when a beast quantum computer takes over the internet. I think all the decentralized systems we have now will adapt before those things happen and we will not see any dramatic results in our technology. I am still only amazed by this concept: some mathematicians and computer scientists do their best to improve this state-of-the-art technology and we can't do anything but wait to see what is going to happen in our next struggle.
                 </p>
                 <hr />
-                <p style={{ textAlign: "right", margin: "0.5%" }}>{blog.date}</p>
+                <BlogFooter blog={blog} />
             </div>
         </div>
     )

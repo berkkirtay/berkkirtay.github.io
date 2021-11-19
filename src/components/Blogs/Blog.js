@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 
 import Blog1 from './blog1/Blog1';
+import Blog2 from './blog2/Blog2';
 
 const Blog = ({ blogs }) => {
 
@@ -10,6 +11,11 @@ const Blog = ({ blogs }) => {
     if (blog.title === "On Cryptography") {
         return (
             <Blog1 blog={blog} />
+        )
+    }
+    else if (blog.title === "My Thoughts on Genetic Algorithms") {
+        return (
+            <Blog2 blog={blog} />
         )
     }
     else {

@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import crypto from "crypto"
 import Contact from "./components/Contact";
 import Home from "./components/Home"
-import Blogs from "./components/Blogs";
-import Blog from "./components/Blog";
+import Blogs from "./components/Blogs/Blogs";
+import Blog from "./components/Blogs/Blog";
 import Header from "./components/Header";
 
 
@@ -14,6 +14,12 @@ const App = () => {
       "title": "On Cryptography",
       "text": "",
       "date": "November 04, 2021"
+    },
+    {
+      "id": crypto.createHash("SHA1").update("My Thoughts on Genetic Algorithms").digest('base64').toLowerCase(),
+      "title": "My Thoughts on Genetic Algorithms",
+      "text": "",
+      "date": "November 19, 2021"
     }
   ]
 
