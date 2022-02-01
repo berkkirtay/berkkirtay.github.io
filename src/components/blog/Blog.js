@@ -21,10 +21,10 @@ const Blog = ({ blogs }) => {
     else {
         return (
             <div className='blog'>
-                <Link to="/blogs" style={{ textDecoration: "none", color: "white" }}>
+                <Link to="/blog" style={{ textDecoration: "none", color: "white" }}>
                     <h1 style={{ display: "inline" }}>My Blogs</h1>
                 </Link>
-                <Link to="/blogs" style={{ display: "inline", float: "right", marginTop: "1.8%", color: "white" }} ><button className="button">Go back</button></Link>
+                <Link to="/blog" style={{ display: "inline", float: "right", marginTop: "1.8%", color: "white" }} ><button className="button">Go back</button></Link>
                 <hr />
                 <div className='blogBlock' style={{ padding: "1%" }}>
                     <h3>{blog.title}</h3>
