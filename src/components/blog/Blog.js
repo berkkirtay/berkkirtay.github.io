@@ -1,12 +1,12 @@
 import { useParams, Link } from 'react-router-dom';
 
-import Blog1 from './blog1/Blog1';
-import Blog2 from './blog2/Blog2';
+import Blog1 from './blogs/blog1/Blog1';
+import Blog2 from './blogs/blog2/Blog2';
 
 const Blog = ({ blogs }) => {
 
-    const { id } = useParams();
-    const blog = blogs.find((blog) => blog.id === id);
+    const { _id } = useParams();
+    const blog = blogs.find((blog) => blog._id === _id);
 
     if (blog.title === "On Cryptography") {
         return (

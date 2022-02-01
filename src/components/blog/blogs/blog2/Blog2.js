@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import BlogFooter from "../BlogFooter"
+import BlogFooter from "../../blogComponentes/BlogFooter"
 
 import dna from "./dna.jpg"
 import crossingover from "./crossing-over.jpg"

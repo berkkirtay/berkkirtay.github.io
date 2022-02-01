@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import BlogFooter from "../BlogFooter"
+import BlogFooter from "../../blogComponentes/BlogFooter"
 
 import cryptoimg from "./cryptography.jpg"
 import sha2img from "./sha2.png"

@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import Footer from "./footer/Footer";
 
 const Home = () => {
     return (
@@ -19,8 +19,7 @@ const Home = () => {
                     <li>Blockchain Technology</li>
                     <p style={{ width: "85%", paddingLeft: "1%" }}>Blockchain is the technology of the future. I developed some basic applications of blockchain and several transaction systems. I am excited to see how much we can achieve with this technology!</p>
                     <li >Cryptography</li>
-                    <p style={{ width: "85%", paddingLeft: "1%" }}>I have been interested in Cryptography for a long time and some of my projects include digital signature methods and essentials such as,
-                        SSL, SHA, AES, RSA. </p>
+                    <p style={{ width: "85%", paddingLeft: "1%" }}>I have been interested in Cryptography for a long time and some of my projects include digital signature methods and essentials such as SSL, SHA, AES, RSA. </p>
                 </ul>
                 <hr />
             </div>
