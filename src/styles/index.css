@@ -108,7 +108,20 @@ footer a {
   margin-left: 10px;
 }
 
+.link {
+  display: inline;
+  float:left;
+  margin: 0.5%;
+  color: white;
+  text-decoration:none;
+}
+
+.link:hover {
+  text-decoration:underline;
+}
+
 .button {
+  font-size: 90%;
   background-color: #3c3f4b;
   border: 1px solid #222222;
   border-radius: 8px;
@@ -128,7 +141,7 @@ footer a {
 }
 
 .button:hover{
-  background-color: #2c324d;
+  background-color: #25293f;
 }
 
 
@@ -148,14 +161,15 @@ footer a {
   padding: 10px;
 }
 
+@media screen and (orientation: portrait){
+  .blog p, .blog h1, .blog h2, .blog h3, .blog h4, .blog a, .blog i {
+    font-size:70%;
+  }  
+}
+
 .italic {
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
 }
 
-/*
-@media screen (orientation: portrait) and (max-width: 400px){
 
-
-}
- */

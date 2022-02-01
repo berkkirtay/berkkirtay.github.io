@@ -34,11 +34,10 @@ const Blog1 = ({ blog }) => {
                     <div style={{ float: "left" }}>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/St_5-xband-antenna.jpg" alt="Wiki img" width="50%" height="50%" style={{ display: "block", margin: "auto", padding: "1%" }} />
                     </div>
-                    <div style={{ marginBottom: "16%", paddingTop: "13%" }}>
+                    <div style={{ marginBottom: "13%", paddingTop: "14%" }}>
                         <i className="italic" >"The 2006 NASA ST5 spacecraft antenna. This complicated shape was found by an evolutionary computer design program to create the best radiation pattern. It is known as an evolved antenna." (Wikipedia)</i>
                     </div>
                 </div>
-
                 <p>
                     This was a quick way to explain how a genetic algorithm would work. We can use or apply different techniques or other mechanisms based on our model or purposes. From the software perspective, a genetic algorithm would make an object work like an animal who constantly tries to survive in wild. There is a constant fight between all species or among same species in nature. There is a saying that the one most adaptable to change will survive. This is the most significant concept about evolution and nature.
                     In software we change the term adaptability with optimality. There is never a perfect solution. It is pretty much like nature; there is no perfect DNA sequence, but there will always be one which is the most adaptable. When we implement genetic algorithms, we follow this essential rule of evolution. Our programs will not try to find the global optimal (perfect) solution, rather they will try to estimate it.
