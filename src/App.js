@@ -27,7 +27,7 @@ const App = () => {
     if (navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("Android") > 0) {
       var parent = document.getElementById("parent");
       if (parent)
-        parent.style.width = "95%";
+        parent.style.width = "90%";
 
       var footer = document.getElementById("footer");
       if (footer)

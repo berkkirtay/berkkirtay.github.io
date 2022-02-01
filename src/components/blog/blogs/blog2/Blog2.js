@@ -10,7 +10,7 @@ const Blog1 = ({ blog }) => {
         <div className='blog'>
             <h1 style={{ display: "inline" }}>{blog.title}</h1>
 
-            <Link to="/blog" style={{ display: "inline", float: "right", marginTop: "1.4%", color: "white" }} ><button className="button">Go back</button></Link>
+            <Link to="/blog" style={{ display: "inline", float: "right", color: "white" }} ><button className="button">Go back</button></Link>
             <hr />
             <div className='blogBlock' style={{ padding: "1%" }}>
                 <p>
