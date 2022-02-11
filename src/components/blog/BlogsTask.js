@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const BlogsTask = ({ blog }) => {
-    const [move, setMove] = useState(false);
+    const [move, setMove] = useState(true);
 
     const onMove = () => {
-        setMove(true);
+        // setMove(true);
     }
 
     const onLeave = () => {
-        setMove(false);
+        // setMove(false);
     }
 
     return (
