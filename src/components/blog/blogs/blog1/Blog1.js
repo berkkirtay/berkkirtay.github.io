@@ -12,7 +12,7 @@ const Blog1 = ({ blog }) => {
             <h1 style={{ display: "inline" }}>On Cryptography</h1>
 
             <Link to="/blog" style={{ display: "inline", float: "right", color: "white" }} ><button className="button">Go back</button></Link>
-            <hr />
+            <hr id='bloghr' />
             <div className='blogBlock' style={{ padding: "1%" }}>
                 <p>
                     Cryptography has a long history. The story starts with Caesar himself. He created the first known encryption method called Caesar Cipher.

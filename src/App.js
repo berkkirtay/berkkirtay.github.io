@@ -22,31 +22,31 @@ const App = () => {
       "date": "November 19, 2021"
     }
   ]
-
-  document.addEventListener('click', () => {
-    if (navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("Android") > 0) {
-      var parent = document.getElementById("parent");
-      if (parent)
-        parent.style.width = "90%";
-
-      var footer = document.getElementById("footer");
-      if (footer)
-        footer.style.zoom = "1.8";
-
-      var contact = document.getElementsByClassName("contactForm")[0];
-      if (contact)
-        contact.style.zoom = "1.8";
-
-      var blogs = document.getElementsByClassName("blogs")[0];
-      if (blogs)
-        blogs.style.zoom = "1.8";
-
-      var blog = document.getElementsByClassName("blog")[0];
-      if (blog)
-        blog.style.zoom = "1.8";
-    }
-  }, false);
-
+  /*
+    document.addEventListener('click', () => {
+      if (navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("Android") > 0) {
+        var parent = document.getElementById("parent");
+        if (parent)
+          parent.style.width = "90%";
+  
+        var footer = document.getElementById("footer");
+        if (footer)
+          footer.style.zoom = "1.8";
+  
+        var contact = document.getElementsByClassName("contactForm")[0];
+        if (contact)
+          contact.style.zoom = "1.8";
+  
+        var blogs = document.getElementsByClassName("blogs")[0];
+        if (blogs)
+          blogs.style.zoom = "1.8";
+  
+        var blog = document.getElementsByClassName("blog")[0];
+        if (blog)
+          blog.style.zoom = "1.8";
+      }
+    }, false);
+  */
   return (
     <div id="parent">
       <Router>

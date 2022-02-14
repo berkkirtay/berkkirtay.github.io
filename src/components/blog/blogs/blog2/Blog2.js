@@ -11,7 +11,7 @@ const Blog1 = ({ blog }) => {
             <h1 style={{ display: "inline" }}>{blog.title}</h1>
 
             <Link to="/blog" style={{ display: "inline", float: "right", color: "white" }} ><button className="button">Go back</button></Link>
-            <hr />
+            <hr id='bloghr' />
             <div className='blogBlock' style={{ padding: "1%" }}>
                 <p>
                     Nowadays, everyone talks about artificial intelligence. We can say AI is almost the most hyped area of computer science. What about how AI works? What kind of algorithms do we use to make our computers perform those intelligent things? The current state of AI is composed of several major concepts. The one I want to talk about is genetic algorithms. As its name says, it refers to the basic evolution mechanisms. There are different types and implementations of genetic algorithms. In fact, implementations can differ based on the scenario and model.

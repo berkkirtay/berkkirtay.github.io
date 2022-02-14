@@ -9,7 +9,7 @@ const Blogs = ({ blogs }) => {
                     <h1 style={{ display: "inline", marginBottom: "5px" }}>My Blog</h1>
                 </Link>
                 <Link to="/" style={{ display: "inline", float: "right", color: "white" }}><button className="button" >Go back</button></Link>
-                <hr />
+                <hr id="bloghr" />
                 <ul>
                     {blogs.slice(0).reverse().map((blog) => (
                         <BlogTask blog={blog} />

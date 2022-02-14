@@ -25,7 +25,7 @@ const Blog = ({ blogs }) => {
                     <h1 style={{ display: "inline" }}>My Blogs</h1>
                 </Link>
                 <Link to="/blog" style={{ display: "inline", float: "right", marginTop: "1.8%", color: "white" }} ><button className="button">Go back</button></Link>
-                <hr />
+                <hr id='bloghr' />
                 <div className='blogBlock' style={{ padding: "1%" }}>
                     <h3>{blog.title}</h3>
                     {blog.text.map((text) => (

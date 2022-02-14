@@ -11,6 +11,7 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+/*
 document.addEventListener('DOMContentLoaded', () => {
   if (navigator.userAgent.indexOf("iPhone") > 0 || navigator.userAgent.indexOf("Android") > 0) {
     var parent = document.getElementById("parent");
@@ -34,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       blog.style.zoom = "1.8";
   }
 }, false);
-
+*/
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
