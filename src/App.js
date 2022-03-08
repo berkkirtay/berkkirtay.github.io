@@ -5,6 +5,7 @@ import Home from "./components/Home"
 import Blogs from "./components/blog/Blogs";
 import Blog from "./components/blog/Blog";
 import Header from "./components/header/Header";
+import ScrollToTop from "./components/tools/ScrollToTop"
 
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
   return (
     <div id="parent">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route path="/blog/:_id">
             <Blog blogs={blogs} />
@@ -50,6 +52,7 @@ const App = () => {
             <Home />
           </Route>
         </Switch>
+        <ScrollToTop />
       </Router>
     </div>
   );
