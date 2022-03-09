@@ -55,7 +55,7 @@ header {
 
 .contactForm {
   max-height: 1000px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   justify-content: center;
   display: block;
@@ -166,10 +166,105 @@ footer a {
 
 #bloghr {
   margin-top: 3%;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
+}
+
+.italic {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#profile {
+  display: inline-block;
+}
+
+#profile-child-pfp {
+  width: 20%;
+  float: left;
+  padding: 10px 10px 0 10px;
+}
+
+#profile-child-pfp img {
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 2%;
+}
+
+#profile-child-desc {
+  width: 75%;
+  float: left;
+  position: relative;
+  padding: 1%;
+  padding-top: 5%;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav a,
+#navName {
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navName:hover,
+li.nav a:hover:not(li.nav a:active) {
+  color: #263485;
+}
+
+#navName:active,
+li.nav a:active {
+  color: #25293f;
+}
+
+.hamburgerMenu {
+  display: none;
 }
 
 @media screen and (orientation: portrait) {
+  /* #profile {
+    display: flex;
+  }
+
+  #profile-child-pfp {
+    display: none;
+  }
+  #profile-child-desc {
+    width: 100%;
+    padding: 0%;
+  }
+*/
+
+  #profile {
+    display: inline-block;
+  }
+
+  #profile-child-pfp {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #profile-child-pfp img {
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  #profile-child-desc {
+    display: inline-block;
+    width: 100%;
+    zoom: 55%;
+    padding: 1%;
+  }
+
   #parent {
     font-size: 150%;
     border: none;
@@ -234,9 +329,13 @@ footer a {
     margin: 25%;
     margin-right: 10px;
   }
-}
 
-.italic {
-  font-style: italic;
-  font-family: "Times New Roman", Times, serif;
+  .hamburgerMenu {
+    display: block;
+    position: relative;
+    float: right;
+    padding: 5px 10px 10px 10px;
+    zoom: 130%;
+    z-index: 10;
+  }
 }

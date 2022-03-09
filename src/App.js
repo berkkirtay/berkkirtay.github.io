@@ -4,8 +4,9 @@ import Contact from "./components/contact/Contact";
 import Home from "./components/Home"
 import Blogs from "./components/blog/Blogs";
 import Blog from "./components/blog/Blog";
-import Header from "./components/header/Header";
 import ScrollToTop from "./components/tools/ScrollToTop"
+
+import { Nav } from "./components/Nav";
 
 
 const App = () => {
@@ -26,7 +27,7 @@ const App = () => {
       "_id": crypto.createHash("SHA1").update("Web2 vs Web3 and Privacy").digest('base64'),
       "title": "Web2 vs Web3 and Privacy",
       "text": "Now Web3 is gaining more and more popularity, there is a debate going on about how applicable and reliable web3 is. While some people talk about its decentralized aspect, some others talk about",
-      "date": "March 8, 2022"
+      "date": "March 08, 2022"
     }
   ]
 
@@ -34,6 +35,7 @@ const App = () => {
     <div id="parent">
       <Router>
         <ScrollToTop />
+        <Nav />
         <Switch>
           <Route path="/blog/:_id">
             <Blog blogs={blogs} />
@@ -48,7 +50,6 @@ const App = () => {
           </Route>
 
           <Route path="/">
-            <Header />
             <Home />
           </Route>
         </Switch>

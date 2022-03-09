@@ -26,16 +26,18 @@ const Blog = ({ blogs }) => {
             setContent(<Blog3 />);
         }
     }, [])
+    /*       <Link to="/blog" style={{ display: "inline", float: "right", color: "white" }} >
+                        <button className="button">Go back</button>
+                    </Link>
+                    <hr id='bloghr' /> */
     return (
         <div className='blog'>
             {blog !== undefined &&
                 <div>
+                    <hr id="bloghr" />
                     <h1 style={{ display: "inline", color: "rgb(41, 161, 103)" }}>{blog.title}</h1>
 
-                    <Link to="/blog" style={{ display: "inline", float: "right", color: "white" }} >
-                        <button className="button">Go back</button>
-                    </Link>
-                    <hr id='bloghr' />
+
                     <div className='blogBlock' style={{ padding: "1%" }}>
                         {content}
                         <hr />

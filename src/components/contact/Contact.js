@@ -21,12 +21,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="contactForm">
-            <Link to="/contact" style={{ textDecoration: "none", color: "white" }}>
-                <h1 style={{ display: "inline" }}>Contact me</h1>
-            </Link>
-            <Link to="/" style={{ display: "inline", float: "right", color: "white" }}><button className="button">Go back</button></Link>
-
+        <div>
             <hr id='bloghr' />
             <form className="contactForm" onSubmit={onSubmit}>
                 <label>Your name:</label>

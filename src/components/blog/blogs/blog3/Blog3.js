@@ -79,7 +79,7 @@ const Blog3 = () => {
                 The main question is, are we going to choose web3 over web2 or keep using both at the same time? Nobody can answer this for now. My opinion is that both will exist, and people will use the systems that they trust most as always. Is web3 going to gain the trust of people? I don't know. Is web3 going to provide enough privacy for the users? Yes!
             </p>
             <p>
-                We talked about the feasibility about those systems, and I think we should consider one more question. Is web3 really decentralized? Can we trust very big stakeholders? I think web3 can be truly decentralized if we build it properly and create a perfectly balanced consensus . This can be the new age of internet or can be a futile attempt or can be an improved system; it is all up to the people.
+                We talked about the feasibility about those systems, and I think we should consider one more question. Is web3 really decentralized? Can we trust very big stakeholders? I think web3 can be truly decentralized if we build it properly and create a perfectly balanced consensus. This can be the new age of internet or can be a futile attempt or can be an improved system; it is all up to the people.
             </p>
         </div>
     )
