@@ -229,19 +229,6 @@ li.nav a:active {
 }
 
 @media screen and (orientation: portrait) {
-  /* #profile {
-    display: flex;
-  }
-
-  #profile-child-pfp {
-    display: none;
-  }
-  #profile-child-desc {
-    width: 100%;
-    padding: 0%;
-  }
-*/
-
   #profile {
     display: inline-block;
   }
@@ -260,8 +247,9 @@ li.nav a:active {
 
   #profile-child-desc {
     display: inline-block;
+    margin: 0 auto;
     width: 100%;
-    zoom: 55%;
+    zoom: 60%;
     padding: 1%;
   }
 

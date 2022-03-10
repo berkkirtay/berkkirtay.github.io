@@ -33,16 +33,16 @@ export const Nav = ({ click }) => {
                 href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css"
             />
 
-            <Link onClick={closeMenu} to="/" id='navName' style={{ marginLeft: "10px", fontSize: "180%", position: "relative", zIndex: "20" }} >
+            <Link to="/" id='navName' style={{ marginLeft: "10px", fontSize: "180%", position: "relative", zIndex: "20" }} >
                 Berk Kırtay
             </Link>
             <div style={{ float: "right" }}>
                 <ul className="nav">
-                    <li className="nav" onClick={closeMenu} style={{ float: "right" }}><Link to="/contact">Contact me</Link>
+                    <li className="nav" style={{ float: "right" }}><Link to="/contact">Contact me</Link>
                     </li>
-                    <li className="nav" onClick={closeMenu} style={{ float: "right" }}><Link to="/blog">My Blog</Link>
+                    <li className="nav" style={{ float: "right" }}><Link to="/blog">My Blog</Link>
                     </li>
-                    <li className="nav" onClick={closeMenu} style={{ float: "right" }}>
+                    <li className="nav" style={{ float: "right" }}>
                         <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">My GitHub <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
@@ -52,7 +52,6 @@ export const Nav = ({ click }) => {
                 </ul>
             </div>
             <div className="hamburgerMenu"
-                onClick={closeMenu}
                 ref={ref}>
                 <Hamburger
                     toggled={hamburgerMenu}
@@ -89,6 +88,7 @@ export const Nav = ({ click }) => {
                     }
                     .nav a {
                         font-size: 130%;
+                        width: 800px;
                     }
                 }
             `}</style>

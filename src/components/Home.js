@@ -1,5 +1,4 @@
 import Footer from "./footer/Footer";
-import { Link } from "react-router-dom";
 import pfp from "../assets/img/pfp.jpg";
 const Home = () => {
     return (
@@ -10,7 +9,7 @@ const Home = () => {
                         <img src={pfp} alt="pfp" width="90%" height="40%" />
                     </div>
                     <div id="profile-child-desc">
-                        Hi, I am a junior Computer Science student at Marmara University. I write software and have been interested in computers since I was five. I love
+                        Hi, I am a junior Computer Science student at Marmara University. I write software. I love
                         learning about anything related to computer science and I am always eager to expand my expertise!
                     </div>
                 </div>
