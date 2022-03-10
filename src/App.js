@@ -7,9 +7,10 @@ import Blog from "./components/blog/Blog";
 import ScrollToTop from "./components/tools/ScrollToTop"
 
 import { Nav } from "./components/Nav";
-
+import { useState, useEffect } from 'react';
 
 const App = () => {
+
   var blogs = [
     {
       "_id": crypto.createHash("SHA1").update("On Cryptography").digest("base64"),
@@ -32,7 +33,7 @@ const App = () => {
   ]
 
   return (
-    <div id="parent">
+    <div id="parent" >
       <Router>
         <ScrollToTop />
         <Nav />

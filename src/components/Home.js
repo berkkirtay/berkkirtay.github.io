@@ -1,13 +1,13 @@
 import Footer from "./footer/Footer";
-
+import { Link } from "react-router-dom";
+import pfp from "../assets/img/pfp.jpg";
 const Home = () => {
     return (
         <>
             <div className="aboutme">
-                <hr />
                 <div id="profile">
                     <div id="profile-child-pfp">
-                        <img src="https://media-exp1.licdn.com/dms/image/D4D03AQEDo9digTgLcg/profile-displayphoto-shrink_200_200/0/1646575641645?e=1652313600&v=beta&t=WNui-SMDIovmHnqCXpBMPYPIT5BYYuvhy6whBN1zLOs" alt="pfp" width="90%" height="40%" />
+                        <img src={pfp} alt="pfp" width="90%" height="40%" />
                     </div>
                     <div id="profile-child-desc">
                         Hi, I am a junior Computer Science student at Marmara University. I write software and have been interested in computers since I was five. I love
@@ -63,10 +63,8 @@ const Home = () => {
                         <a href="https://github.com/berkkirtay/berkcoin" target="_blank" rel="noopener noreferrer">Berkcoin Decentralized App <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
                 </ul>
-                <hr />
-                <div style={{ paddingBottom: "3%" }}><i style={{ float: "left", margin: "0.5%" }}>Berk Kırtay ©</i></div>
+                <Footer />
             </div>
-
         </>
     )
 }

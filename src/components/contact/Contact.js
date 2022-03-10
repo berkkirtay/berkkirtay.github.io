@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
 import { useState } from "react"
 import emailjs from 'emailjs-com';
+import Footer from "../footer/Footer";
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -22,7 +22,6 @@ const Contact = () => {
 
     return (
         <div>
-            <hr id='bloghr' />
             <form className="contactForm" onSubmit={onSubmit}>
                 <label>Your name:</label>
                 <input type="text" name="name" required
@@ -35,6 +34,7 @@ const Contact = () => {
                     value={text} onChange={(e) => setText(e.target.value)}></textarea>
                 <input id="send" type="submit" value="Submit" />
             </form>
+            <Footer />
         </div >
     )
 }

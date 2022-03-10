@@ -1,13 +1,25 @@
 import { Link } from 'react-router-dom'
-import { useState } from 'react';
-
+import { useState, useEffect, useRef } from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
 import githubIco from "../assets/img/github.png"
 import linkedinIco from "../assets/img/linkedin.png"
 
-export const Nav = () => {
-
+export const Nav = ({ click }) => {
     const [hamburgerMenu, setHamburgerMenu] = useState(false);
+    const ref = useRef(null);
+
+    const handleClickOutside = (e) => {
+        if (ref.current && !ref.current.contains(e.target)) {
+            setHamburgerMenu(false);
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener('click', handleClickOutside, true);
+        return () => {
+            document.removeEventListener('click', handleClickOutside, true);
+        };
+    }, []);
 
     const closeMenu = () => {
         if (hamburgerMenu === true) {
@@ -31,33 +43,36 @@ export const Nav = () => {
                     <li className="nav" onClick={closeMenu} style={{ float: "right" }}><Link to="/blog">My Blog</Link>
                     </li>
                     <li className="nav" onClick={closeMenu} style={{ float: "right" }}>
-                        <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">My GitHub <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">My GitHub <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li className="nav" style={{ float: "right" }}>
-                        <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">My Linkedin <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">My Linkedin <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a>
                     </li>
                 </ul>
             </div>
             <div className="hamburgerMenu"
-                onClick={() => setHamburgerMenu(!hamburgerMenu)}>
+                onClick={closeMenu}
+                ref={ref}>
                 <Hamburger
                     toggled={hamburgerMenu}
-                    toggle={setHamburgerMenu} />
+                    toggle={setHamburgerMenu}
+                />
             </div>
-
-            <style jsx>{`
+            <hr id='bloghr' />
+            <style jsx="true">{`
                 @media screen and (orientation: portrait) {
                     li.nav {
                         color: white;
                         float:none;
                         justify-content: center;
                         list-style: none;
-                        height: 80px;
+                        height: 140px;
                         display: flex;
                         align-items:center;
                     }
                     ul.nav {
+                        margin-top: 50px;
                         display:  ${hamburgerMenu ? 'flex' : 'none'};
                         flex-direction: column;
                         background-color:#101820ff;
@@ -66,10 +81,10 @@ export const Nav = () => {
                         z-index:3;
                         right: 0;
                         top: 0;
-                        height:500px;
+                        height:650px;
                         width: 800px;
                         justify-content: center;
-                        transition-duration: 800ms;
+                        transition-duration: 1s;
                         transition-property: margin-bottom;
                     }
                     .nav a {

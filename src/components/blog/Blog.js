@@ -33,17 +33,13 @@ const Blog = ({ blogs }) => {
     return (
         <div className='blog'>
             {blog !== undefined &&
-                <div>
-                    <hr id="bloghr" />
-                    <h1 style={{ display: "inline", color: "rgb(41, 161, 103)" }}>{blog.title}</h1>
-
-
-                    <div className='blogBlock' style={{ padding: "1%" }}>
+                <div className='blogBlock'>
+                    <h1 style={{ color: "rgb(41, 161, 103)" }}>{blog.title}</h1>
+                    <div >
                         {content}
                         <hr />
                         <BlogFooter blog={blog} />
                     </div>
-
                 </div>
             }
         </div>
