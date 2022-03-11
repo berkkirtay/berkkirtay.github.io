@@ -1,8 +1,3 @@
-import { Link } from "react-router-dom"
-
-import githubIco from "../../assets/img/github.png"
-import linkedinIco from "../../assets/img/linkedin.png"
-
 const Footer = () => {
 
     return (

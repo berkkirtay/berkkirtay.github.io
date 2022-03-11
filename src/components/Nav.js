@@ -1,10 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
-import githubIco from "../assets/img/github.png"
-import linkedinIco from "../assets/img/linkedin.png"
 
-export const Nav = ({ click }) => {
+export const Nav = () => {
     const [hamburgerMenu, setHamburgerMenu] = useState(false);
     const ref = useRef(null);
 
@@ -20,12 +18,6 @@ export const Nav = ({ click }) => {
             document.removeEventListener('click', handleClickOutside, true);
         };
     }, []);
-
-    const closeMenu = () => {
-        if (hamburgerMenu === true) {
-            setHamburgerMenu(false);
-        }
-    }
     return (
         <div >
             <link

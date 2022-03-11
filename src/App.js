@@ -5,9 +5,7 @@ import Home from "./components/Home"
 import Blogs from "./components/blog/Blogs";
 import Blog from "./components/blog/Blog";
 import ScrollToTop from "./components/tools/ScrollToTop"
-
 import { Nav } from "./components/Nav";
-import { useState, useEffect } from 'react';
 
 const App = () => {
 
