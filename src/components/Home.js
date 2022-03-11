@@ -6,7 +6,7 @@ const Home = () => {
             <div className="aboutme">
                 <div id="profile">
                     <div id="profile-child-pfp">
-                        <img src={pfp} alt="pfp" width="90%" height="40%" />
+                        <img src={pfp} alt="pfp" width="90%" />
                     </div>
                     <div id="profile-child-desc">
                         Hi, I am a junior Computer Science student at Marmara University. I write software. I love

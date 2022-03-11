@@ -47,7 +47,7 @@ export const Nav = ({ click }) => {
                     </li>
 
                     <li className="nav" style={{ float: "right" }}>
-                        <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">My Linkedin <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a>
+                        <a href="https://www.linkedin.com/in/berkkirtay/" target="_blank" rel="noopener noreferrer">My Linkedin <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,8 @@ export const Nav = ({ click }) => {
             </div>
             <hr id='bloghr' />
             <style jsx="true">{`
-                @media screen and (orientation: portrait) {
+               @media screen and (max-device-width: 768px),
+               screen and (orientation: portrait) {
                     li.nav {
                         color: white;
                         float:none;

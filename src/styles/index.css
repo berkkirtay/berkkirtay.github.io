@@ -187,7 +187,7 @@ footer a {
 #profile-child-pfp img {
   border-radius: 15px;
   overflow: hidden;
-  padding: 2%;
+  margin: 2%;
 }
 
 #profile-child-desc {
@@ -195,7 +195,7 @@ footer a {
   float: left;
   position: relative;
   padding: 1%;
-  padding-top: 5%;
+  padding-top: 6%;
 }
 
 ul.nav {
@@ -228,7 +228,14 @@ li.nav a:active {
   display: none;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 1280px) {
+  #parent {
+    width: 70%;
+  }
+}
+
+@media screen and (max-device-width: 768px),
+  screen and (orientation: portrait) {
   #profile {
     display: inline-block;
   }
@@ -236,18 +243,19 @@ li.nav a:active {
   #profile-child-pfp {
     display: inline-block;
     width: 100%;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 5px 0 0 0;
+    text-align: center;
   }
 
   #profile-child-pfp img {
-    border-radius: 40px;
+    border-radius: 20px;
     overflow: hidden;
-    margin: 0 auto;
   }
 
   #profile-child-desc {
     display: inline-block;
-    margin: 0 auto;
+    margin: 1%;
     width: 100%;
     zoom: 60%;
     padding: 1%;
