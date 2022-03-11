@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.42b9f1ff.chunk.css",
-    "main.js": "/static/js/main.19a81409.chunk.js",
-    "main.js.map": "/static/js/main.19a81409.chunk.js.map",
+    "main.css": "/static/css/main.3de7100d.chunk.css",
+    "main.js": "/static/js/main.1c5095ad.chunk.js",
+    "main.js.map": "/static/js/main.1c5095ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48a7fb15.js",
     "runtime-main.js.map": "/static/js/runtime-main.48a7fb15.js.map",
     "static/js/2.c061a991.chunk.js": "/static/js/2.c061a991.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.26d1901d.chunk.js": "/static/js/3.26d1901d.chunk.js",
     "static/js/3.26d1901d.chunk.js.map": "/static/js/3.26d1901d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.42b9f1ff.chunk.css.map": "/static/css/main.42b9f1ff.chunk.css.map",
+    "static/css/main.3de7100d.chunk.css.map": "/static/css/main.3de7100d.chunk.css.map",
     "static/js/2.c061a991.chunk.js.LICENSE.txt": "/static/js/2.c061a991.chunk.js.LICENSE.txt",
     "static/media/crossing-over.c7db7fd7.jpg": "/static/media/crossing-over.c7db7fd7.jpg",
     "static/media/cryptography.393199d3.jpg": "/static/media/cryptography.393199d3.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.48a7fb15.js",
     "static/js/2.c061a991.chunk.js",
-    "static/css/main.42b9f1ff.chunk.css",
-    "static/js/main.19a81409.chunk.js"
+    "static/css/main.3de7100d.chunk.css",
+    "static/js/main.1c5095ad.chunk.js"
   ]
 }
