@@ -36,6 +36,7 @@ const Contact = () => {
             </form>
             <Footer />
         </div >
+
     )
 }
 

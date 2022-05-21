@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import BlogFooter from "./blogComponentes/BlogFooter"
+import BlogFooter from "./blogComponents/BlogFooter"
 
 import Blog1 from './blogs/blog1/Blog1';
 import Blog2 from './blogs/blog2/Blog2';
@@ -26,10 +26,7 @@ const Blog = ({ blogs }) => {
             setContent(<Blog3 />);
         }
     }, [])
-    /*       <Link to="/blog" style={{ display: "inline", float: "right", color: "white" }} >
-                        <button className="button">Go back</button>
-                    </Link>
-                    <hr id='bloghr' /> */
+
     return (
         <div className='blog'>
             {blog !== undefined &&
