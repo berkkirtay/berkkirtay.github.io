@@ -61,7 +61,7 @@ const Blog1 = ({ blog }) => {
             </p>
 
             <p>
-                So, I think genetic algorithm method will be used for so a long time in computer science until we find a better approach. I would say that this algorithm reflect
+                So, I think genetic algorithm method will be used for so a long time in computer science until we find a better approach. I would say that this algorithm reflects
                 the nature's methods and the way how it solves the problems is very elegant. After all, nature has a huge amount of experience, and we only try to use its ways.
             </p>
         </div >
