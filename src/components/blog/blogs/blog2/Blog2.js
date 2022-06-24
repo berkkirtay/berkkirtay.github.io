@@ -21,11 +21,11 @@ const Blog1 = ({ blog }) => {
             </p>
 
             <h3>An Evolved Antenna:</h3>
-            <div style={{ margin: "auto" }}>
-                <div style={{ float: "left" }}>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/St_5-xband-antenna.jpg" alt="Wiki" width="50%" height="50%" style={{ display: "block", margin: "auto", padding: "1%" }} />
+            <div style={{ margin: "0 auto", display: "inline-block" }}>
+                <div style={{ float: "left", width: "35%", margin: "10px" }}>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/St_5-xband-antenna.jpg" alt="Wiki" width="95%" height="80%" style={{ display: "block", margin: "auto", padding: "1%" }} />
                 </div>
-                <div style={{ marginBottom: "13%", paddingTop: "14%" }}>
+                <div style={{ float: "left", width: "60%", marginTop: "20px" }}>
                     <i className="italic" >"The 2006 NASA ST5 spacecraft antenna. This complicated shape was found by an evolutionary computer design program to create the best radiation pattern. It is known as an evolved antenna." (Wikipedia)</i>
                 </div>
             </div>
@@ -61,10 +61,10 @@ const Blog1 = ({ blog }) => {
             </p>
 
             <p>
-                So, I think genetic algorithm method will be used for so a long time in computer science until we find a better approach. I would say that this algorithm reflect
+                So, I think genetic algorithm method will be used for so a long time in computer science until we find a better approach. I would say that this algorithm reflects
                 the nature's methods and the way how it solves the problems is very elegant. After all, nature has a huge amount of experience, and we only try to use its ways.
             </p>
-        </div>
+        </div >
     )
 }
 
