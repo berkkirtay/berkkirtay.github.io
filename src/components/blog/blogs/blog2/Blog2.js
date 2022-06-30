@@ -1,7 +1,7 @@
 import dna from "./dna.jpg"
 import crossingover from "./crossing-over.jpg"
 
-const Blog1 = ({ blog }) => {
+const Blog2 = () => {
     return (
         <div>
             <p>
@@ -68,4 +68,4 @@ const Blog1 = ({ blog }) => {
     )
 }
 
-export default Blog1
+export default Blog2
