@@ -1,20 +1,18 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica", "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-
+  font-family: "Helvetica", "Helvetica Neue", "Arial", sans-serif, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: 1rem;
   line-height: 1.4em;
   letter-spacing: 0.7px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: rgb(216, 216, 179);   */
-  background-color: #101820ff; /*#1b1c20*/
+  background-color: #101820ff;
   color: white;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Helvetica", "Courier New",
     monospace;
 }
 
@@ -240,8 +238,8 @@ li.nav a:active {
     display: inline-block;
     margin: 1%;
     width: 100%;
-    zoom: 60%;
     padding: 1%;
+    zoom: 70%;
   }
 
   #parent {
@@ -262,11 +260,11 @@ li.nav a:active {
   }
 
   .aboutme {
-    font-size: 150%;
+    font-size: 135%;
   }
 
   .projectLinksList {
-    font-size: 139%;
+    font-size: 135%;
   }
 
   .contactForm {
