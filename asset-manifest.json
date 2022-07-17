@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfa4927a.chunk.css",
+    "main.css": "/static/css/main.af28a883.chunk.css",
     "main.js": "/static/js/main.4f65bff1.chunk.js",
     "main.js.map": "/static/js/main.4f65bff1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48a7fb15.js",
@@ -10,7 +10,7 @@
     "static/js/3.26d1901d.chunk.js": "/static/js/3.26d1901d.chunk.js",
     "static/js/3.26d1901d.chunk.js.map": "/static/js/3.26d1901d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cfa4927a.chunk.css.map": "/static/css/main.cfa4927a.chunk.css.map",
+    "static/css/main.af28a883.chunk.css.map": "/static/css/main.af28a883.chunk.css.map",
     "static/js/2.9769bdf1.chunk.js.LICENSE.txt": "/static/js/2.9769bdf1.chunk.js.LICENSE.txt",
     "static/media/crossing-over.c7db7fd7.jpg": "/static/media/crossing-over.c7db7fd7.jpg",
     "static/media/cryptography.393199d3.jpg": "/static/media/cryptography.393199d3.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.48a7fb15.js",
     "static/js/2.9769bdf1.chunk.js",
-    "static/css/main.cfa4927a.chunk.css",
+    "static/css/main.af28a883.chunk.css",
     "static/js/main.4f65bff1.chunk.js"
   ]
 }
