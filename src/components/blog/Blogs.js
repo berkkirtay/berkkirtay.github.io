@@ -1,3 +1,5 @@
+// Copyright(c) 2022 Berk Kırtay
+
 import Footer from "../footer/Footer";
 import BlogTask from "./BlogsTask";
 import BlogList from "./blogs/BlogsList";

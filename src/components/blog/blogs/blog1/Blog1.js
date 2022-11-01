@@ -1,3 +1,5 @@
+// Copyright(c) 2022 Berk Kırtay
+
 import cryptoimg from "./cryptography.jpg"
 import sha2img from "./sha2.png"
 import enigma_machine from "./enigma_machine.png"

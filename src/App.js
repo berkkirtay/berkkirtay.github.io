@@ -1,3 +1,5 @@
+// Copyright(c) 2022 Berk Kırtay
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Contact from "./components/contact/Contact";
 import Home from "./components/Home"

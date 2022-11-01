@@ -1,3 +1,5 @@
+// Copyright(c) 2022 Berk Kırtay
+
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import BlogFooter from "./blogComponents/BlogFooter"

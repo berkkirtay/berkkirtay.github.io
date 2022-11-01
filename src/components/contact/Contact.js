@@ -1,3 +1,5 @@
+// Copyright(c) 2022 Berk Kırtay
+
 import { useState } from "react"
 import emailjs from 'emailjs-com';
 import Footer from "../footer/Footer";
