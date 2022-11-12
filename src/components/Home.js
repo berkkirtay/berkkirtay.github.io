@@ -13,7 +13,6 @@ const Home = () => {
                     <div id="profile-child-desc">
                         Hi, I am a senior Computer Science student at Marmara University. I write software. I love
                         learning about anything related to computer science and I am always eager to expand my expertise!
-                        Please feel free to reach out for any question or business offer!
                     </div>
                 </div>
 
@@ -27,7 +26,7 @@ const Home = () => {
                     <li>Blockchain Technology</li>
                     <p style={{ width: "85%", paddingLeft: "1%" }}>I am interested in blockchain and web3. I developed some basic applications of blockchain and decentralized transaction systems. I also work on decentralized apps.</p>
                     <li >Cryptography</li>
-                    <p style={{ width: "85%", paddingLeft: "1%" }}>I have been interested in Cryptography for a long time and some of my work include digital signature methods and essentials such as SSL, SHA, AES, RSA. </p>
+                    <p style={{ width: "85%", paddingLeft: "1%" }}>I have been interested in Cryptography for a long time and some of my work include PKCS methods and essentials such as SSL, SHA, AES, RSA. </p>
                 </ul>
                 <hr />
             </div>
