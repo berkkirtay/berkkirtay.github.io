@@ -23,57 +23,18 @@ const Home = () => {
                 <ul>
                     <li>Software Engineering</li>
                     <p style={{ width: "85%", paddingLeft: "1%" }}>I am proficient about software development life cycles and knowledgeable about famous software engineering practices. I try to write clean, modular and efficient software.</p>
+
                     <li>Blockchain Technology</li>
                     <p style={{ width: "85%", paddingLeft: "1%" }}>I am interested in blockchain and web3. I developed some basic applications of blockchain and decentralized transaction systems. I also work on decentralized apps.</p>
+
                     <li >Cryptography</li>
                     <p style={{ width: "85%", paddingLeft: "1%" }}>I have been interested in Cryptography for a long time and some of my work include PKCS methods and essentials such as SSL, SHA, AES, RSA. </p>
+
+                    <li >Artificial Intelligence</li>
+                    <p style={{ width: "85%", paddingLeft: "1%" }}>I am working on evolutionary algorithms and machine learning on my studies and research. </p>
                 </ul>
-                <hr />
             </div>
-
-            <div className="projectLinksList">
-                <h4 style={{ paddingLeft: "1%" }}>Check out my projects on GitHub:</h4>
-                <ul>
-                    <li>
-                        <a href="https://github.com/berkkirtay/basicblockchain" target="_blank" rel="noopener noreferrer">A Proof-of-Work Based Blockchain
-                            Implementation <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/blockchain-web-api" target="_blank" rel="noopener noreferrer">A Web App for My Blockchain
-                            Implementation <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/PasswordManager" target="_blank" rel="noopener noreferrer">Password Manager Service <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/geneticalgorithms" target="_blank" rel="noopener noreferrer">Genetic Algorithms Applications <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">Basic File Encryptor <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/enigmamachine" target="_blank" rel="noopener noreferrer">Enigma Machine Emulator <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/berkcoin" target="_blank" rel="noopener noreferrer">Berkcoin Decentralized App <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/personal-website" target="_blank" rel="noopener noreferrer">Source Code of This Website <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/adaptive-genetic-algorithm-for-n-queens" target="_blank" rel="noopener noreferrer">An Adaptive Genetic Algorithm for N-Queens Problem <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-                </ul>
-                <Footer />
-            </div>
+            <Footer />
         </>
     )
 }

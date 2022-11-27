@@ -42,6 +42,16 @@ header {
   color: rgb(2, 129, 68);
 }
 
+.projectLinksList ol {
+  margin: 1.5%;
+  color: rgb(2, 129, 68);
+}
+
+.projectLinksList td {
+  margin: 1.5%;
+  color: rgb(2, 129, 68);
+}
+
 .projectLinksList a {
   color: rgb(20, 175, 100);
   text-decoration: none;
@@ -216,7 +226,7 @@ li.nav a:active {
 }
 
 @media screen and (max-device-width: 768px),
-  screen and (orientation: portrait) {
+screen and (orientation: portrait) {
   #profile {
     display: inline-block;
   }

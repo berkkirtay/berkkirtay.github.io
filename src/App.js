@@ -7,6 +7,8 @@ import Blogs from "./components/blog/Blogs";
 import Blog from "./components/blog/Blog";
 import ScrollToTop from "./components/tools/ScrollToTop"
 import { Nav } from "./components/Nav";
+import Work from "./components/work/Work";
+import Experience from "./components/experience/Experience";
 
 const App = () => {
   return (
@@ -25,6 +27,14 @@ const App = () => {
 
           <Route path="/contact">
             <Contact />
+          </Route>
+
+          <Route path="/work">
+            <Work />
+          </Route>
+
+          <Route path="/experience">
+            <Experience />
           </Route>
 
           <Route path="/">
