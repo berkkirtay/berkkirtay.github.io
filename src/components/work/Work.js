@@ -1,7 +1,5 @@
 // Copyright(c) 2022 Berk Kırtay
 
-import { useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react';
 import Footer from '../footer/Footer';
 
 const Work = () => {
@@ -53,7 +51,8 @@ const Work = () => {
                     </li>
                 </ul>
 
-                <p style={workStyle}>You can access my projects on :   <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">GitHub <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a></p>
+                <p style={workStyle}>My open-source projects are available at: <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">
+                    GitHub <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a></p>
             </div>
 
             <hr />

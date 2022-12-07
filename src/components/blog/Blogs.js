@@ -8,7 +8,7 @@ const Blogs = () => {
     return (
         <div className="blogs" >
             <div className="projectLinksList">
-                <ul>
+                <ul style={{ paddingTop: "1%" }}>
                     {BlogList.slice(0).reverse().map((blog) => (
                         <BlogTask blog={blog} />
                     ))}
