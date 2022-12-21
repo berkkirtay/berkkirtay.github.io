@@ -18,24 +18,25 @@ const Work = () => {
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/blockchain-web-api" target="_blank" rel="noopener noreferrer">A Web App for My Blockchain
+                        <a href="https://github.com/berkkirtay/adaptive-genetic-algorithm-for-n-queens" target="_blank" rel="noopener noreferrer">An Adaptive Genetic Algorithm for N-Queens Problem <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/berkkirtay/blockchain-web-api" target="_blank" rel="noopener noreferrer">A Wallet Web App for My Blockchain
                             Implementation <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
+                        <a href="https://github.com/berkkirtay/berk-8" target="_blank" rel="noopener noreferrer">A CHIP-8 (berk-8) Emulator
+                            with C++ and SDL2 <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">A Basic RSA Algorithm File Encryptor <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                    </li>
+
+                    <li>
                         <a href="https://github.com/berkkirtay/PasswordManager" target="_blank" rel="noopener noreferrer">Password Manager Service <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/geneticalgorithms" target="_blank" rel="noopener noreferrer">Genetic Algorithms Applications <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">Basic File Encryptor <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay/enigmamachine" target="_blank" rel="noopener noreferrer">Enigma Machine Emulator <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
@@ -47,7 +48,11 @@ const Work = () => {
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/adaptive-genetic-algorithm-for-n-queens" target="_blank" rel="noopener noreferrer">An Adaptive Genetic Algorithm for N-Queens Problem <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay/geneticalgorithms" target="_blank" rel="noopener noreferrer">Genetic Algorithms Applications <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/berkkirtay/enigmamachine" target="_blank" rel="noopener noreferrer">Enigma Machine Emulator <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
                 </ul>
 
