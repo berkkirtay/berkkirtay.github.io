@@ -22,8 +22,7 @@ const Work = () => {
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/blockchain-web-api" target="_blank" rel="noopener noreferrer">A Wallet Web App for My Blockchain
-                            Implementation <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay/blockchain-web-api" target="_blank" rel="noopener noreferrer">A Blockchain Based Wallet Web App <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
@@ -32,7 +31,7 @@ const Work = () => {
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">A Basic RSA Algorithm File Encryptor <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">A Basic RSA Algorithm Based File Encryptor <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
