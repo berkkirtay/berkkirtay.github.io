@@ -34,7 +34,7 @@ const Blog4Metadata = {
     _id: crypto.createHash("SHA1").update("Emulator 101 and Beyond").digest('hex'),
     title: "Emulator 101 and Beyond",
     content: <Blog4 />,
-    date: "Jan 05, 2023",
+    date: "Jan 09, 2023",
     text: "Today, many of us use emulators for various reasons. Some of us use them to access the old hardware and some others use them to be able to play the games that their platform does not support.But what is an emulation?"
 }
 
