@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecff891a.chunk.css",
-    "main.js": "/static/js/main.e84d3569.chunk.js",
-    "main.js.map": "/static/js/main.e84d3569.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.48a7fb15.js",
-    "runtime-main.js.map": "/static/js/runtime-main.48a7fb15.js.map",
-    "static/js/2.0bbcce60.chunk.js": "/static/js/2.0bbcce60.chunk.js",
-    "static/js/2.0bbcce60.chunk.js.map": "/static/js/2.0bbcce60.chunk.js.map",
-    "static/js/3.26d1901d.chunk.js": "/static/js/3.26d1901d.chunk.js",
-    "static/js/3.26d1901d.chunk.js.map": "/static/js/3.26d1901d.chunk.js.map",
+    "main.css": "/static/css/main.70dabd7a.chunk.css",
+    "main.js": "/static/js/main.589b9b33.chunk.js",
+    "main.js.map": "/static/js/main.589b9b33.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.396f64fb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.396f64fb.js.map",
+    "static/css/2.a5d27c12.chunk.css": "/static/css/2.a5d27c12.chunk.css",
+    "static/js/2.b90e7896.chunk.js": "/static/js/2.b90e7896.chunk.js",
+    "static/js/2.b90e7896.chunk.js.map": "/static/js/2.b90e7896.chunk.js.map",
+    "static/js/3.b61b7dd2.chunk.js": "/static/js/3.b61b7dd2.chunk.js",
+    "static/js/3.b61b7dd2.chunk.js.map": "/static/js/3.b61b7dd2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ecff891a.chunk.css.map": "/static/css/main.ecff891a.chunk.css.map",
-    "static/js/2.0bbcce60.chunk.js.LICENSE.txt": "/static/js/2.0bbcce60.chunk.js.LICENSE.txt",
+    "static/css/2.a5d27c12.chunk.css.map": "/static/css/2.a5d27c12.chunk.css.map",
+    "static/css/main.70dabd7a.chunk.css.map": "/static/css/main.70dabd7a.chunk.css.map",
+    "static/js/2.b90e7896.chunk.js.LICENSE.txt": "/static/js/2.b90e7896.chunk.js.LICENSE.txt",
+    "static/media/Telmac1800.273d35cd.jpg": "/static/media/Telmac1800.273d35cd.jpg",
+    "static/media/c64.aed4befe.png": "/static/media/c64.aed4befe.png",
     "static/media/crossing-over.c7db7fd7.jpg": "/static/media/crossing-over.c7db7fd7.jpg",
     "static/media/cryptography.393199d3.jpg": "/static/media/cryptography.393199d3.jpg",
     "static/media/dna.74489093.jpg": "/static/media/dna.74489093.jpg",
@@ -22,9 +26,10 @@
     "static/media/web2vsweb3.7089bbd6.png": "/static/media/web2vsweb3.7089bbd6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.48a7fb15.js",
-    "static/js/2.0bbcce60.chunk.js",
-    "static/css/main.ecff891a.chunk.css",
-    "static/js/main.e84d3569.chunk.js"
+    "static/js/runtime-main.396f64fb.js",
+    "static/css/2.a5d27c12.chunk.css",
+    "static/js/2.b90e7896.chunk.js",
+    "static/css/main.70dabd7a.chunk.css",
+    "static/js/main.589b9b33.chunk.js"
   ]
 }
