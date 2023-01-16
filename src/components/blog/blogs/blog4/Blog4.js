@@ -45,7 +45,7 @@ const Blog4 = () => {
                 emulator adventure with CHIP-8.
             </p>
 
-            <h4>A picture of Telmac 1800 Microcomputer which CHIP-8 runs on [3]</h4>
+            <h3>A picture of Telmac 1800 Microcomputer which CHIP-8 runs on [3]</h3>
             <img src={telmac1800} alt="telmac1800" width="90%" height="40%" style={{ display: "block", margin: "auto", padding: "1%" }} />
 
             <p>
@@ -55,7 +55,7 @@ const Blog4 = () => {
                 instructions and 16-bit addressing mode. C64 has a 64 KB main memory and can support multicolor sprites along with better
                 audio performance than his predecessors.
             </p>
-            <h4>A picture of Commodore64 (C64) [4]</h4>
+            <h3>A picture of Commodore64 (C64) [4]</h3>
             <img src={c64} alt="telmac1800" width="90%" height="40%" style={{ display: "block", margin: "auto", padding: "1%" }} />
 
             <p>
@@ -123,9 +123,9 @@ const Blog4 = () => {
                 sound. More detailed information and emulator execution examples can be found below.
             </p>
 
-            <h4>Architecture of CHIP-8</h4>
+            <h3>Architecture of CHIP-8</h3>
 
-            <p>CHIP-8 Processor provides:</p>
+            <h4>CHIP-8 Processor provides:</h4>
             <ul>
                 <li style={{ margin: "8px" }}>
                     A 2048 kb main memory with 8-bit word size
@@ -150,7 +150,7 @@ const Blog4 = () => {
                 </li>
             </ul>
 
-            <p>CHIP-8 Instruction Set Architecture:</p>
+            <h4>CHIP-8 Instruction Set Architecture:</h4>
             <p>
                 As it is mentioned earlier, CHIP-8 has 36 different instructions and size of the instructions are 16-bit long.
                 The instructions are in big-endian format, and they cover 2 contiguous memory areas per instruction.
@@ -191,7 +191,7 @@ const Blog4 = () => {
                 sprite drawing instruction. An emulator for this interpreter can be easily implemented for many other platforms as well.
             </p>
 
-            <h4>Examples from berk-8</h4>
+            <h3>Examples from berk-8</h3>
             <ul>
                 <li style={{ margin: "8px" }}>
                     Space Invaders
@@ -210,7 +210,7 @@ const Blog4 = () => {
                 </li>
             </ul>
 
-            <h3>What about C64?</h3>
+            <h2>What about C64?</h2>
 
             <p>
                 C64 is my next target machine for emulation, and I am willing to share my experiences in this blog. Once I finish the development of the C64 emulator,
@@ -221,7 +221,7 @@ const Blog4 = () => {
                 The emulation journey is not over yet. In fact, this area of computing will be more related as the time goes on!
             </p>
 
-            <h3>References</h3>
+            <h2>References</h2>
             <p>[1] https://en.wikipedia.org/wiki/CHIP-8</p>
             <p>[2] http://devernay.free.fr/hacks/chip8/C8TECH10.HTM</p>
             <p>[3] Telmac 1800 <a style={{ color: "rgb(16, 133, 76)" }} href="https://en.wikipedia.org/wiki/Telmac_1800#/media/File:Telmac1800.jpg">
