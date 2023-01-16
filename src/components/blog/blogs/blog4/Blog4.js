@@ -111,7 +111,7 @@ const Blog4 = () => {
                 taking ideas from different people!
             </p>
 
-            <h3>A CHIP-8 (berk-8) Emulator with C++ and SDL2</h3>
+            <h2>A CHIP-8 (berk-8) Emulator with C++ and SDL2</h2>
             <p>
                 Here, I want to give a short detailed explanation about CHIP-8. You can also access this
                 page and source code by visiting <a style={{ color: "rgb(16, 133, 76)" }} href="https://github.com/berkkirtay/berk-8">github.com/berkkirtay/berk-8</a>.
