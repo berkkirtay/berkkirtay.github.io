@@ -32,9 +32,9 @@ const Blog4 = () => {
                 Today, many of us use emulators for various reasons. Some of us use them to access the old hardware
                 and some others use them to be able to play the retro games that their host platform does not support. But what is
                 an emulation? Well, actually there can be two different answers to this question: We usually say that
-                emulating is a virtualization method of a hardware in a software environment. But this description can be also described
-                as: emulating is a virtualization of any machine. Here, the term machine can be interpreted as a hardware or a software.
-                Software emulations are also called as virtual machines.
+                emulating is a virtualization method of a hardware in a software environment. But this statement can be also described
+                as: Emulating is a virtualization of a machine. Here, the term machine can be interpreted as a hardware or a software system.
+                Software emulations are also called virtual machines.
             </p>
             <p>
                 In an engineering perspective, when one wants to get into emulation development world, they will probably start with
