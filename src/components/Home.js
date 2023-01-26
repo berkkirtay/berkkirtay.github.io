@@ -33,7 +33,7 @@ const Home = () => {
                     <p style={pStyle}>I have been studying and implementing concepts concerning Cryptography for a long time and some of my work include PKCS standards and essentials such as SSL, SHA, AES, RSA. </p>
 
                     <li >Artificial Intelligence</li>
-                    <p style={pStyle}>I am familiar with some metaheuristic techniques in the combinatorial optimization literature. I work with evolutionary algorithms and machine learning models in my studies. </p>
+                    <p style={pStyle}>I am familiar with some metaheuristic techniques in the combinatorial optimization literature. I work with evolutionary algorithms and machine learning methods in my studies. </p>
 
                     <li>Blockchain Technology</li>
                     <p style={pStyle}>I am interested in blockchain and web3. I developed some basic applications of blockchain and decentralized transaction systems. I also work on decentralized apps.</p>
