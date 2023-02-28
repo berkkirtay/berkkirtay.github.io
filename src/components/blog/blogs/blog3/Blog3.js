@@ -74,7 +74,7 @@ const Blog3 = () => {
             </ul>
 
             <p>
-                So, there is an efficient way to use those mathematical concepts and it is already being implemented on some blockchains (For example, Ethereum will update to ETH 2.0 soon which uses proof-of-stake instead of proof-of-work).(For example, Ethereum will update to ETH 2.0 soon which uses proof-of-stake instead of proof-of-work).
+                So, there is an efficient way to use those mathematical concepts and it is already being implemented on some blockchains (For example, Ethereum will update to ETH 2.0 soon which uses proof-of-stake instead of proof-of-work).
             </p>
             <img src={eth} alt="eth" width="90%" height="40%" style={{ display: "block", margin: "auto", padding: "1%" }} />
             <p>
