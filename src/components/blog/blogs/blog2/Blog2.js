@@ -7,7 +7,7 @@ const Blog2 = () => {
     return (
         <div>
             <p>
-                Nowadays, everyone talks about artificial intelligence. We can say AI is almost the most hyped area of computer science. What about how AI works? What kind of algorithms do we use to make our computers perform those intelligent things? The current state of AI is composed of several major concepts. The one I want to talk about is genetic algorithms. As its name says, it refers to the basic evolution mechanisms. There are different types and implementations of genetic algorithms. In fact, implementations can differ based on the scenario and model.
+                Nowadays, everyone talks about artificial intelligence. We can say AI is almost the most hyped area of computer science. What about how AI works? What kind of algorithms do we use to make our computers perform those intelligent things? The current state of AI is composed of several major concepts. The one I want to talk about is genetic algorithms which is a subtopic of evolutionary algorithms. As its name says, it refers to the basic evolution mechanisms. There are different types and implementations of genetic algorithms. In fact, implementations can differ based on the scenario and model. Nevertheless, it is a metaheuristic which provides solutions for various kind of problems.
             </p>
             <img src={dna} alt="dna" width="90%" height="40%" style={{ display: "block", margin: "auto", padding: "1%" }} />
             <h3>A Simple Description:</h3>
@@ -59,12 +59,15 @@ const Blog2 = () => {
             <a style={{ color: "rgb(16, 133, 76)", paddingLeft: "5%" }} href="https://github.com/berkkirtay/geneticalgorithms" target="_blank" rel="noopener noreferrer">My own implementation of genetic algorithms</a>
 
             <p>
-                Genetic algorithms are so useful for trainable models or real-life applications. It has a good use in robotics; basically, we can train robots, so that their prediction rate for good decisions will increase drastically.
+                Genetic algorithms are so useful for combinatorial optimization problems and provide efficient solutions for real-life applications. 
+                They also have a good use in robotics; basically, we can train robots, so that their prediction rate for good decisions will increase drastically.
+                
             </p>
 
             <p>
-                So, I think genetic algorithm method will be used for so a long time in computer science until we find a better approach. I would say that this algorithm reflects
-                the nature's methods and the way how it solves the problems is very elegant. After all, nature has a huge amount of experience, and we only try to use its ways.
+            So, I think genetic algorithms are so helpful unless the optimization phase gets stuck in a local optimum point. There are various ways to overcome this issue and if they are 
+            suitably implemented, then genetic algorithms will be a solid part of artificial intelligence literature. I would say that this algorithm reflects
+            the nature's methods and the way how it solves the problems is very elegant. After all, nature has a huge amount of experience, and we only try to use its ways.
             </p>
         </div >
     )

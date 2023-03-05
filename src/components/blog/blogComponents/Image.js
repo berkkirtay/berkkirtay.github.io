@@ -1,4 +1,5 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2023 Berk Kırtay
+
 const Image = ({ url }) => {
     return (
         <img src={url} alt={url}
