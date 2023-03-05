@@ -59,8 +59,8 @@ const Experience = () => {
                         </tr>
                     </tbody>
                 </table>
-                <p style={{ paddingLeft: "3%" }}>More detailed experience information can be found at: <a href="https://www.linkedin.com/in/berkkirtay/" target="_blank" rel="noopener noreferrer">
-                    Linkedin <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a></p>
+                <p style={{ paddingLeft: "3%" }}>A more detailed experience information can be found at: <a href="https://www.linkedin.com/in/berkkirtay/" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/berkkirtay <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a></p>
             </div>
             <Footer />
         </div>
