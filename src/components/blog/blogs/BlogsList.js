@@ -27,7 +27,7 @@ const Blog3Metadata = {
     title: "Web2 vs Web3 and Privacy",
     content: <Blog3 />,
     date: "March 08, 2022",
-    text: "Now Web3 is gaining more and more popularity, there is a debate going on about how applicable and reliable web3 is. While some people talk about its decentralized aspect, some others talk about"
+    text: "In recent years Web3 is gaining more and more popularity and there has been a debate going on about how applicable and reliable web3 is. While some people talk about its decentralized aspect, some others talk"
 }
 
 const Blog4Metadata = {
