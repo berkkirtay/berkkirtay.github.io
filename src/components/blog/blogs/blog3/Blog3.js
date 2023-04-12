@@ -7,7 +7,7 @@ const Blog3 = () => {
     return (
         <div>
             <p>
-                Now Web3 is gaining more and more popularity, there is a debate going on about how applicable and reliable web3 is. While some people talk about its decentralized aspect, some others talk about reliability of web. We all know that transition between web1 and web2 was quick; people started interacting with web pages. Clients suddenly started communicating with centralized servers. With this change, we were also introduced to cookies, user session data and so on. Most of the web service providers collect user data and use it for their business or they can even sell it in some cases. So, the mentality here is that most of those web services are free but users are products, and they pay their fees with their private data.
+                In recent years Web3 is gaining more and more popularity and there has been a debate going on about how applicable and reliable web3 is. While some people talk about its decentralized aspect, some others talk about reliability of web. We all know that transition between web1 and web2 was quick; people started interacting with web pages. Clients suddenly started communicating with centralized servers. With this change, we were also introduced to cookies, user session data and so on. Most of the web service providers collect user data and use it for their business or they can even sell it in some cases. So, the mentality here is that most of those web services are free but users are products, and they pay their fees with their private data.
             </p>
             <img src={web2vsweb3} alt="web2vsweb3" width="90%" height="40%" style={{ display: "block", margin: "auto", padding: "1%" }} />
             <p>
