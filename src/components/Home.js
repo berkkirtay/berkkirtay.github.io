@@ -16,8 +16,7 @@ const Home = () => {
                         <img src={pfp} alt="pfp" width="90%" />
                     </div>
                     <div id="profile-child-desc">
-                        Hi, I am a senior Computer Science student at Marmara University. I write software. I love
-                        learning about anything related to computer science and I am always eager to broaden my expertise!
+                        Hi, I use my computer science background to solve real-world problems by writing efficient and scalable software. As a software engineer, I enjoy closely collaborating with customers to deliver cost-effective solutions that meet their needs.
                     </div>
                 </div>
 
@@ -30,7 +29,7 @@ const Home = () => {
                     <p style={pStyle}>I am proficient about software development life cycles and knowledgeable about famous software engineering practices. I try to write clean, modular and efficient software.</p>
 
                     <li >Cryptography</li>
-                    <p style={pStyle}>I have been studying and implementing concepts concerning Cryptography for a long time and some of my work include PKCS standards and essentials such as SSL, SHA, AES, RSA. </p>
+                    <p style={pStyle}>I have been studying and implementing concepts concerning Cryptography. My work includes PKCS standards and essentials such as SSL, SHA, AES, RSA. </p>
 
                     <li >Artificial Intelligence</li>
                     <p style={pStyle}>I am familiar with some metaheuristic techniques in the combinatorial optimization literature. I work with evolutionary algorithms and machine learning methods in my studies. </p>

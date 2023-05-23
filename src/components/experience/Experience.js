@@ -22,6 +22,15 @@ const Experience = () => {
                         <tr>
                             <td style={tableItemStyle}>
                                 <span style={{ display: "list-item" }}>
+                                    Software Engineer - Amadeus</span>
+                            </td>
+                            <td align="center">Mar 2023</td>
+                            <td align="center">-</td>
+                            <td align="center">Present</td>
+                        </tr>
+                        <tr>
+                            <td style={tableItemStyle}>
+                                <span style={{ display: "list-item" }}>
                                     Software Engineer Intern - Amadeus</span>
                             </td>
                             <td align="center">July 2022</td>
@@ -31,7 +40,7 @@ const Experience = () => {
                         <tr>
                             <td style={tableItemStyle}>
                                 <span style={{ display: "list-item" }}>
-                                    Junior Software Developer - Medyasoft</span>
+                                    Software Developer - Medyasoft</span>
                             </td>
                             <td align="center">July 2021</td>
                             <td align="center">-</td>
@@ -60,7 +69,7 @@ const Experience = () => {
                     </tbody>
                 </table>
                 <p style={{ paddingLeft: "3%" }}>A more detailed experience information can be found at: <a href="https://www.linkedin.com/in/berkkirtay/" target="_blank" rel="noopener noreferrer">
-                linkedin.com/in/berkkirtay <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a></p>
+                    linkedin.com/in/berkkirtay <i style={{ zoom: "0.8" }} className="fas fa-external-link-alt"></i></a></p>
             </div>
             <Footer />
         </div>
