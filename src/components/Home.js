@@ -26,7 +26,7 @@ const Home = () => {
                 </h4>
                 <ul>
                     <li>Software Engineering</li>
-                    <p style={pStyle}>I am proficient about software development life cycles and knowledgeable about famous software engineering practices. I try to write clean, modular and efficient software.</p>
+                    <p style={pStyle}>I have experience with software development life cycles and am a fan of test-driven development. I strive to write clean, modular, and efficient software.</p>
 
                     <li >Cryptography</li>
                     <p style={pStyle}>I have been studying and implementing concepts concerning Cryptography. My work includes PKCS standards and essentials such as SSL, SHA, AES, RSA. </p>
