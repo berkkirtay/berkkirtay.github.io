@@ -64,17 +64,17 @@ const Work = () => {
 
                     <li>
                         <a href="https://github.com/berkkirtay/ai-assignments" target="_blank" rel="noopener noreferrer">
-                        Game Benchmarking With Various AI Algorithms  <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            Game Benchmarking With Various AI Algorithms  <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
                         <a href="https://github.com/berkkirtay/machine-learning" target="_blank" rel="noopener noreferrer">
-                        Basic Machine Learning Programming Concepts <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            Basic Machine Learning Programming Concepts <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
                         <a href="https://github.com/berkkirtay/CSE3038_MIPS_Project/blob/main/src/mips_project_v2.asm" target="_blank" rel="noopener noreferrer">
-                        MIPS Assembly Language Programming <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            MIPS Assembly Language Programming <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                 </ul>
@@ -86,37 +86,6 @@ const Work = () => {
                 <p style={workStyle}>Will be filled later.</p>
 
             </div>
-
-            <hr />
-            <div className="projectLinksList">
-                <h4 style={{ paddingLeft: "1%" }}>Other Links: </h4>
-                <ul>
-                    <li>
-                        <a href="https://berkkirtay.github.io/berkcoin" target="_blank" rel="noopener noreferrer">
-                        berkkirtay.dev/berkcoin <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p >Berkcoin Decentralized App.</p>
-                    </li>
-
-                    <li>
-                        <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">
-                        github.com/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p>My all open-source projects.</p>
-                    </li>
-
-                    <li>
-                        <a href="https://gitlab.com/berkkirtay" target="_blank" rel="noopener noreferrer">
-                        gitlab.com/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p>My gitlab account for future use.</p>
-                    </li> 
-
-                    <li>
-                        <a href="https://leetcode.com/berkkrty/" target="_blank" rel="noopener noreferrer">
-                        leetcode.com/berkkrty <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p>Problem solving.</p>
-                    </li> 
-                </ul>
-            </div>
-
             <Footer />
         </div >
     )
