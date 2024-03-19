@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import Footer from '../footer/Footer';
 
@@ -75,6 +75,11 @@ const Work = () => {
                     <li>
                         <a href="https://github.com/berkkirtay/CSE3038_MIPS_Project/blob/main/src/mips_project_v2.asm" target="_blank" rel="noopener noreferrer">
                             MIPS Assembly Language Programming <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/berkkirtay/group-messaging-in-go" target="_blank" rel="noopener noreferrer">
+                            Group messaging in Go with AES and Diffie-Hellman <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                 </ul>

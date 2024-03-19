@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import Footer from "../footer/Footer";
 
@@ -10,7 +10,7 @@ const Experience = () => {
 
     const tableItemStyle = {
         color: "rgb(20, 175, 100)",
-        width: "72%",
+        width: "65%",
     };
 
     return (
@@ -75,12 +75,6 @@ const Experience = () => {
                 <h4 style={{ paddingLeft: "1%" }}>Other Links: </h4>
                 <ul>
                     <li>
-                        <a href="https://www.linkedin.com/in/berkkirtay/" target="_blank" rel="noopener noreferrer">
-                            linkedin.com/in/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p >My linkedin profile</p>
-                    </li>
-
-                    <li>
                         <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">
                             github.com/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                         <p>My all open-source projects.</p>
@@ -102,6 +96,12 @@ const Experience = () => {
                         <a href="https://berkkirtay.github.io/berkcoin" target="_blank" rel="noopener noreferrer">
                             berkkirtay.dev/berkcoin <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                         <p >Berkcoin Decentralized App.</p>
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/berkkirtay/" target="_blank" rel="noopener noreferrer">
+                            linkedin.com/in/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                        <p >My linkedin profile.</p>
                     </li>
                 </ul>
             </div>

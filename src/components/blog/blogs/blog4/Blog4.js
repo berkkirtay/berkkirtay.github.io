@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import telmac1800 from "./Telmac1800.jpg"
 import c64 from "./c64.png"

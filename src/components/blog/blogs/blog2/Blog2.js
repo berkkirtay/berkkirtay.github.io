@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import dna from "./dna.jpg"
 import crossingover from "./crossing-over.jpg"

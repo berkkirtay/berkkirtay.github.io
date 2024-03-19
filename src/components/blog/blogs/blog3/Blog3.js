@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import web2vsweb3 from "./web2vsweb3.png";
 import eth from "./eth.jpg"
