@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import { Link } from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react';
@@ -28,7 +28,7 @@ export const Nav = () => {
             />
 
             <Link to="/" id='navName' style={{ marginLeft: "10px", fontSize: "180%", position: "relative", zIndex: "20" }} >
-                Berk Kırtay
+                Berk Kirtay
             </Link>
             <div style={{ float: "right" }}>
                 <ul className="nav">

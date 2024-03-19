@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import dna from "./dna.jpg"
 import crossingover from "./crossing-over.jpg"
@@ -37,7 +37,7 @@ const Blog2 = () => {
             </p>
 
             <p>
-                So, why do we use genetic algorithms in the first place? Don't we need an optimal solution instead of an estimated one? The reasons for this can be lack of computational power or lack of information about models. Even if we entirely know our model and when we try to find an optimal solution using an exact algorithm, we would need to wait for a long amount of time because an exact algorithm will try every single possibility for our model. But those algorithms do not work in polynomial time complexity. They can have exponential time complexities and therefore consume too much computational power and until we found an optimal solution with them. Genetic algorithms, on the other hand, will estimate a solution in a very short time. Genetic algorithms are also called as stochastic search heuristics. They are faster, more feasible, but they do not give an optimal solution.
+                So, why do we use genetic algorithms in the first place? Don't we need an optimal solution instead of an estimated one? The reasons for this can be lack of computational power or lack of information about models. Even if we entirely know our model and when we try to find an optimal solution using an exact algorithm, we would need to wait for a long amount of time because an exact algorithm will try every single possibility for our model. But those algorithms do not work in polynomial time complexity. They can have exponential time complexity and therefore consume too much computational power until they found an optimal solution. Genetic algorithms, on the other hand, will estimate an optimal solution in a very short time. Genetic algorithms are also called as stochastic search heuristics. They are faster, more feasible, but they do not give an optimal solution.
             </p>
 
             <p>
@@ -59,15 +59,15 @@ const Blog2 = () => {
             <a style={{ color: "rgb(16, 133, 76)", paddingLeft: "5%" }} href="https://github.com/berkkirtay/geneticalgorithms" target="_blank" rel="noopener noreferrer">My own implementation of genetic algorithms</a>
 
             <p>
-                Genetic algorithms are so useful for combinatorial optimization problems and provide efficient solutions for real-life applications. 
+                Genetic algorithms are so useful for combinatorial optimization problems and provide efficient solutions for real-life applications.
                 They also have a good use in robotics; basically, we can train robots, so that their prediction rate for good decisions will increase drastically.
-                
+
             </p>
 
             <p>
-            So, I think genetic algorithms are so helpful unless the optimization phase gets stuck in a local optimum point. There are various ways to overcome this issue and if they are 
-            suitably implemented, then genetic algorithms will be a solid part of artificial intelligence literature. I would say that this algorithm reflects
-            the nature's methods and the way how it solves the problems is very elegant. After all, nature has a huge amount of experience, and we only try to use its ways.
+                So, I think genetic algorithms are so helpful unless the optimization phase gets stuck in a local optimum point. There are various ways to overcome this issue and if they are
+                suitably implemented, then genetic algorithms will be a solid part of artificial intelligence literature. I would say that this algorithm reflects
+                the nature's methods and the way how it solves the problems is very elegant. After all, nature has a huge amount of experience, and we only try to use its ways.
             </p>
         </div >
     )

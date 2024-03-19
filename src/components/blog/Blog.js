@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';

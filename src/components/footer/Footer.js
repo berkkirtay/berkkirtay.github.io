@@ -1,4 +1,4 @@
-// Copyright(c) 2022 Berk Kırtay
+// Copyright(c) 2024 Berk Kirtay
 
 const Footer = () => {
 
@@ -6,7 +6,7 @@ const Footer = () => {
         <>
             <hr />
             <div style={{ display: "flex", justifyContent: "center" }}>
-                <i style={{ marginTop: "0.5%" }}>© 2021-2023 Berk Kırtay</i>
+                <i style={{ marginTop: "0.5%" }}>© 2021-2024 Berk Kirtay</i>
             </div>
         </>
     )
