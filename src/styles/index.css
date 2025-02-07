@@ -38,6 +38,10 @@ header {
   color: rgb(20, 175, 100);
 }
 
+.aboutme span:hover {
+  text-decoration: underline;
+}
+
 .projectLinksList li {
   margin: 1.5%;
   color: rgb(2, 129, 68);
@@ -325,5 +329,15 @@ screen and (orientation: portrait) {
     padding: 5px 10px 0 10px;
     zoom: 130%;
     z-index: 10;
+  }
+
+  .modal-content {
+    font-family: "Courier New", monospace;  
+    white-space: pre-wrap;                
+    word-wrap: break-word;                   
+    padding: 18px;                        
+    border-radius: 3px;                  
+    overflow-x: auto;    
+    margin: auto;                
   }
 }

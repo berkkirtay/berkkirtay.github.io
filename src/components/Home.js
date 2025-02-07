@@ -1,4 +1,4 @@
-// Copyright(c) 2024 Berk Kirtay
+// Copyright(c) 2025 Berk Kirtay
 
 import Footer from "./footer/Footer";
 import pfp from "../assets/img/pfp.jpg";
@@ -16,7 +16,7 @@ const Home = () => {
                         <img src={pfp} alt="pfp" width="90%" />
                     </div>
                     <div id="profile-child-desc">
-                        Hi there! I use my computer science background to solve real-world problems by writing efficient and scalable software. As a software engineer, I enjoy closely collaborating with customers to deliver cost-effective solutions that meet their needs.
+                        I use my computer science background to solve real-world problems by writing efficient and scalable software. As a software engineer, I enjoy closely collaborating with customers to deliver cost-effective solutions that meet their needs.
                     </div>
                 </div>
 
@@ -43,4 +43,3 @@ const Home = () => {
     )
 }
 export default Home
-
