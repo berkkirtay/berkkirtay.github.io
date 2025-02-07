@@ -79,9 +79,13 @@ const Work = () => {
 
                     <li>
                         <a href="https://github.com/berkkirtay/group-messaging-in-go" target="_blank" rel="noopener noreferrer">
-                            Group messaging in Go with AES and Diffie-Hellman <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            P2P Group messaging in Go with AES and ECDH <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
+                    <li>
+                        <a href="https://github.com/berkkirtay/signature" target="_blank" rel="noopener noreferrer">
+                        A simple digital signature processor program <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                    </li>
                 </ul>
             </div>
 

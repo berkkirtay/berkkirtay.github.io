@@ -16,7 +16,7 @@ const Home = () => {
                         <img src={pfp} alt="pfp" width="90%" />
                     </div>
                     <div id="profile-child-desc">
-                        Hi there! I use my computer science background to solve real-world problems by writing efficient and scalable software. As a software engineer, I enjoy closely collaborating with customers to deliver cost-effective solutions that meet their needs.
+                        I use my computer science background to solve real-world problems by writing efficient and scalable software. As a software engineer, I enjoy closely collaborating with customers to deliver cost-effective solutions that meet their needs.
                     </div>
                 </div>
 

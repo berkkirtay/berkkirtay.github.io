@@ -69,42 +69,6 @@ const Experience = () => {
                     </tbody>
                 </table>
             </div>
-
-            <hr />
-            <div className="projectLinksList">
-                <h4 style={{ paddingLeft: "1%" }}>Other Links: </h4>
-                <ul>
-                    <li>
-                        <a href="https://github.com/berkkirtay" target="_blank" rel="noopener noreferrer">
-                            github.com/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p>My all open-source projects.</p>
-                    </li>
-
-                    <li>
-                        <a href="https://gitlab.com/berkkirtay" target="_blank" rel="noopener noreferrer">
-                            gitlab.com/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p>My gitlab account for future use.</p>
-                    </li>
-
-                    <li>
-                        <a href="https://leetcode.com/berkkrty/" target="_blank" rel="noopener noreferrer">
-                            leetcode.com/berkkrty <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p>Problem solving.</p>
-                    </li>
-
-                    <li>
-                        <a href="https://berkkirtay.github.io/berkcoin" target="_blank" rel="noopener noreferrer">
-                            berkkirtay.dev/berkcoin <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p >Berkcoin Decentralized App.</p>
-                    </li>
-
-                    <li>
-                        <a href="https://www.linkedin.com/in/berkkirtay/" target="_blank" rel="noopener noreferrer">
-                            linkedin.com/in/berkkirtay <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
-                        <p >My linkedin profile.</p>
-                    </li>
-                </ul>
-            </div>
             <Footer />
         </div>
     )
