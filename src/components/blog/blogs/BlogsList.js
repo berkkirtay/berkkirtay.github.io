@@ -1,3 +1,4 @@
+// Copyright(c) 2024 Berk Kirtay
 // This file can be used as a blog storage for static version.
 
 import crypto from "crypto";

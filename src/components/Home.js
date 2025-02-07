@@ -1,4 +1,4 @@
-// Copyright(c) 2024 Berk Kirtay
+// Copyright(c) 2025 Berk Kirtay
 
 import Footer from "./footer/Footer";
 import pfp from "../assets/img/pfp.jpg";
@@ -43,4 +43,3 @@ const Home = () => {
     )
 }
 export default Home
-
