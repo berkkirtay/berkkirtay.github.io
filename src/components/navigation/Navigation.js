@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react';
 import { Squash as Hamburger } from 'hamburger-react'
 
-export const Nav = () => {
+export const Navigation = () => {
     const [hamburgerMenu, setHamburgerMenu] = useState(false);
     const ref = useRef(null);
 

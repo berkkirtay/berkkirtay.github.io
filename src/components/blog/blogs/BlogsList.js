@@ -7,12 +7,18 @@ import Blog2 from "./blog2/Blog2";
 import Blog3 from "./blog3/Blog3";
 import Blog4 from "./blog4/Blog4";
 
+import Blog1Signature from "./blog1/signature.pem";
+import Blog2Signature from "./blog2/signature.pem";
+import Blog3Signature from "./blog3/signature.pem";
+import Blog4Signature from "./blog4/signature.pem";
+
 const Blog1Metadata = {
     _id: crypto.createHash("SHA1").update("On Cryptography").digest("hex"),
     title: "On Cryptography",
     content: <Blog1 />,
     date: "November 04, 2021",
-    text: "Cryptography has a long history. The story starts with Caesar himself. He created the first known encryption method called Caesar Cipher. He used this method to send secret messages to his legions on the battlefield. Long story short, you can say his method was so easily breakable"
+    text: "Cryptography has a long history. The story starts with Caesar himself. He created the first known encryption method called Caesar Cipher. He used this method to send secret messages to his legions on the battlefield. Long story short, you can say his method was so easily breakable",
+    signature: Blog1Signature
 }
 
 const Blog2Metadata = {
@@ -20,7 +26,8 @@ const Blog2Metadata = {
     title: "My Thoughts on Genetic Algorithms",
     content: <Blog2 />,
     date: "November 19, 2021",
-    text: "Nowadays, everyone talks about artificial intelligence. We can say AI is almost the most hyped area of computer science. What about how AI works? What kind of algorithms do we use to make our computers perform those intelligent things?"
+    text: "Nowadays, everyone talks about artificial intelligence. We can say AI is almost the most hyped area of computer science. What about how AI works? What kind of algorithms do we use to make our computers perform those intelligent things?",
+    signature: Blog2Signature
 }
 
 const Blog3Metadata = {
@@ -28,7 +35,8 @@ const Blog3Metadata = {
     title: "Web2 vs Web3 and Privacy",
     content: <Blog3 />,
     date: "March 08, 2022",
-    text: "In recent years Web3 is gaining more and more popularity and there has been a debate going on about how applicable and reliable web3 is. While some people talk about its decentralized aspect, some others talk"
+    text: "In recent years Web3 is gaining more and more popularity and there has been a debate going on about how applicable and reliable web3 is. While some people talk about its decentralized aspect, some others talk",
+    signature: Blog3Signature
 }
 
 const Blog4Metadata = {
@@ -36,7 +44,8 @@ const Blog4Metadata = {
     title: "Emulator 101 and Beyond",
     content: <Blog4 />,
     date: "Jan 09, 2023",
-    text: "Today, many of us use emulators for various reasons. Some of us use them to access the old hardware and some others use them to be able to play the games that their platform does not support.But what is an emulation?"
+    text: "Today, many of us use emulators for various reasons. Some of us use them to access the old hardware and some others use them to be able to play the games that their platform does not support. But what is an emulation?",
+    signature: Blog4Signature
 }
 
 

@@ -189,7 +189,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [2024] [Berk Kirtay]
+   Copyright [2025] [Berk Kirtay]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -206,11 +206,11 @@
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Contact from "./components/contact/Contact";
-import Home from "./components/Home"
+import Home from "./components/home/Home"
 import Blogs from "./components/blog/Blogs";
 import Blog from "./components/blog/Blog";
 import ScrollToTop from "./components/tools/ScrollToTop"
-import { Nav } from "./components/Nav";
+import { Navigation } from "./components/navigation/Navigation";
 import Work from "./components/work/Work";
 import Experience from "./components/experience/Experience";
 
@@ -219,7 +219,7 @@ const App = () => {
     <div id="parent" >
       <Router>
         <ScrollToTop />
-        <Nav />
+        <Navigation />
         <Switch>
           <Route path="/blog/:_id">
             <Blog />

@@ -5,7 +5,7 @@ import { useRef, useEffect } from "react"
 
 Modal.setAppElement('#root');
 
-export const ContactModal = ({ modalState, setModalState, content, fileName, contentTitle }) => {
+export const SignatureModal = ({ modalState, setModalState, content, fileName, contentTitle }) => {
     const ref = useRef(null);
     const handleClickOutside = (e) => {
         if (ref.current && !ref.current.contains(e.target)) {
@@ -45,7 +45,8 @@ export const ContactModal = ({ modalState, setModalState, content, fileName, con
                             margin: "auto"
                         },
                     }
-                }>
+                }
+                >
                 <div>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <i style={{ cursor: "pointer", fontSize: "48px" }} className="fa fa-copy" onClick={() => copyToClipboard()}></i>

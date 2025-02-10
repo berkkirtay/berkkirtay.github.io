@@ -1,7 +1,7 @@
 // Copyright(c) 2025 Berk Kirtay
 
-import Footer from "./footer/Footer";
-import pfp from "../assets/img/pfp.jpg";
+import Footer from "../footer/Footer";
+import pfp from "../../assets/img/pfp.jpg";
 const Home = () => {
     const pStyle = {
         width: "85%",
@@ -29,10 +29,10 @@ const Home = () => {
                     <p style={pStyle}>I have experience with software development life cycles and I am a fan of test-driven development. I strive to write clean, modular, and efficient software.</p>
 
                     <li >Cryptography</li>
-                    <p style={pStyle}>I have been studying and implementing concepts concerning Cryptography. My work includes PKCS standards and essentials such as SSL, SHA, AES, RSA. </p>
+                    <p style={pStyle}>I have been studying and implementing concepts concerning Cryptography. My work includes PKCS standards and essentials such as SSL, SHA, AES, RSA, ECDH.</p>
 
                     <li >Artificial Intelligence</li>
-                    <p style={pStyle}>I am familiar with some metaheuristic techniques in the combinatorial optimization literature. I work with evolutionary algorithms and machine learning methods in my studies. </p>
+                    <p style={pStyle}>I am familiar with some metaheuristic techniques in the combinatorial optimization literature. I work with evolutionary algorithms and machine learning methods in my studies.</p>
 
                     <li>Blockchain Technology</li>
                     <p style={pStyle}>I am interested in blockchain and web3. I developed some basic applications of blockchain and decentralized transaction systems. I also work on decentralized apps.</p>

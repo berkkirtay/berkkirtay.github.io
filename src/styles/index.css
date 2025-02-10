@@ -230,6 +230,24 @@ li.nav a:active {
   }
 }
 
+.blogFooter i {
+  cursor: pointer;
+}
+
+.blogFooter i:hover {
+  text-decoration: underline;
+}
+
+.modal-content {
+  font-family: "Courier New", monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 5px;
+  border-radius: 3px;
+  overflow-x: auto;
+  margin: auto;
+}
+
 @media screen and (max-device-width: 768px),
 screen and (orientation: portrait) {
   #profile {
@@ -309,11 +327,12 @@ screen and (orientation: portrait) {
 
   footer {
     zoom: 130%;
-    padding-bottom: 4%;
+    padding-bottom: 5%;
   }
 
   .blogFooter {
     zoom: 110%;
+    margin-bottom: 5%;
   }
 
   footer img {
@@ -329,15 +348,5 @@ screen and (orientation: portrait) {
     padding: 5px 10px 0 10px;
     zoom: 130%;
     z-index: 10;
-  }
-
-  .modal-content {
-    font-family: "Courier New", monospace;  
-    white-space: pre-wrap;                
-    word-wrap: break-word;                   
-    padding: 18px;                        
-    border-radius: 3px;                  
-    overflow-x: auto;    
-    margin: auto;                
   }
 }
