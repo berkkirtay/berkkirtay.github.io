@@ -16,7 +16,9 @@ const Experience = () => {
     return (
         <div>
             <div className="projectLinksList">
-                <h4 style={{ paddingLeft: "1%" }}>Experience: </h4>
+                <h4 style={{ paddingLeft: "1%" }}>
+                    Experience
+                </h4>
                 <table style={tableStyle}>
                     <tbody>
                         <tr>
@@ -53,8 +55,9 @@ const Experience = () => {
             <hr />
 
             <div className="projectLinksList">
-                <h4 style={{ paddingLeft: "1%" }}>Education: </h4>
-
+                <h4 style={{ paddingLeft: "1%" }}>
+                    Education
+                </h4>
                 <table style={tableStyle}>
                     <tbody>
                         <tr>

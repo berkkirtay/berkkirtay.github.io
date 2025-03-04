@@ -3,18 +3,20 @@
 import Footer from '../footer/Footer';
 
 const Work = () => {
-    const workStyle = {
-        paddingLeft: "5%"
-    };
+    // const workStyle = {
+    //     paddingLeft: "5%"
+    // };
 
     return (
         <div>
             <div className="projectLinksList">
-                <h4 style={{ paddingLeft: "1%" }}>Projects: </h4>
+                <h4 style={{ paddingLeft: "1%" }}>
+                    Projects
+                </h4>
                 <ul>
                     <li>
                         <a href="https://github.com/berkkirtay/basicblockchain" target="_blank" rel="noopener noreferrer">
-                            A Proof-of-Work Based Blockchain Implementation <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            Proof-of-Work Based Blockchain Implementation <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
@@ -24,17 +26,17 @@ const Work = () => {
 
                     <li>
                         <a href="https://github.com/berkkirtay/berk-8" target="_blank" rel="noopener noreferrer">
-                            A CHIP-8 (berk-8) Emulator with C++ and SDL2 <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            CHIP-8 (berk-8) Emulator with C++ and SDL2 <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
                         <a href="https://github.com/berkkirtay/blockchain-web-api" target="_blank" rel="noopener noreferrer">
-                            A Blockchain Based Wallet Web App <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            Blockchain Based Wallet Web App <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
                         <a href="https://github.com/berkkirtay/basicencryptorGUI" target="_blank" rel="noopener noreferrer">
-                            A Basic RSA Algorithm Based File Encryptor <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                            Basic RSA Algorithm Based File Encryptor <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
 
                     <li>
@@ -83,18 +85,18 @@ const Work = () => {
                     </li>
 
                     <li>
-                        <a href="https://github.com/berkkirtay/signature" target="_blank" rel="noopener noreferrer">
-                        A simple digital signature processor program <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/berkkirtay/sign-256" target="_blank" rel="noopener noreferrer">
+                        Digital signature processor program <i>`sign-256`</i> <i style={{ zoom: "0.9" }} className="fas fa-external-link-alt"></i></a>
                     </li>
                 </ul>
             </div>
 
-            <hr />
+            {/* <hr />
             <div className="projectLinksList">
                 <h4 style={{ paddingLeft: "1%" }}>Research: </h4>
                 <p style={workStyle}>Will be filled later.</p>
 
-            </div>
+            </div> */}
             <Footer />
         </div >
     )

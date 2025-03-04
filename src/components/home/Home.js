@@ -22,7 +22,7 @@ const Home = () => {
 
                 <hr />
                 <h4 style={{ paddingLeft: "1%" }}>
-                    My primary interests are:
+                    My primary interests
                 </h4>
                 <ul>
                     <li>Software Engineering</li>

@@ -23,7 +23,7 @@ export const SignatureModal = ({ modalState, setModalState, content, fileName, c
         if (content) {
             navigator.clipboard
                 .writeText(content)
-                .then(() => alert("Text is copied to clickboard!"))
+                .then(() => alert("Text is copied to clipboard!"))
                 .catch(err => console.log(err));
         }
     }
